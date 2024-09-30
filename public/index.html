@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Curriculum Selector</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Curriculum Selector</h1>
+
+        <!-- Curriculum Selection -->
+        <div class="form-row">
+            <label for="curriculum-select">Choose a Curriculum:</label>
+            <select id="curriculum-select">
+                <option value="">--Select Curriculum--</option>
+            </select>
+        </div>
+
+        <!-- Level Selection -->
+        <div class="form-row">
+            <label for="level-select">Choose a Level:</label>
+            <select id="level-select" disabled>
+                <option value="">--Select Level--</option>
+            </select>
+        </div>
+
+        <!-- Subject Selection -->
+        <div class="form-row">
+            <label for="subject-select">Choose a Subject:</label>
+            <select id="subject-select" disabled>
+                <option value="">--Select Subject--</option>
+            </select>
+        </div>
+
+        <!-- New Question Section -->
+        <h2>Add a New Question</h2>
+
+        <!-- Question Type Selection -->
+        <div class="form-row">
+            <label for="question-type">Question Type:</label>
+            <select id="question-type">
+                <option value="mcq">Multiple Choice</option>
+                <option value="definition">Definition</option>
+                <option value="part">Part of a Multi-part Question</option>
+            </select>
+        </div>
+
+        <!-- Question Text Input -->
+        <div class="form-row">
+            <label for="question-text">Question Text:</label>
+            <textarea id="question-text" rows="4" placeholder="Enter the question text here..."></textarea>
+        </div>
+
+        <!-- MCQ Options Section (Hidden by default) -->
+        <div id="mcq-options" class="form-row" style="display: none;">
+            <label for="question-options">Options (for MCQ):</label>
+            <input type="text" id="option-1" placeholder="Option 1" />
+            <input type="text" id="option-2" placeholder="Option 2" />
+            <input type="text" id="option-3" placeholder="Option 3" />
+            <input type="text" id="option-4" placeholder="Option 4" />
+        </div>
+
+        <!-- Correct Answer Input -->
+        <div class="form-row">
+            <label for="correct-answer">Correct Answer:</label>
+            <input type="text" id="correct-answer" placeholder="Enter the correct answer here..." />
+        </div>
+
+        <!-- Save Button -->
+        <div class="form-actions">
+            <button id="save-question">Save Question</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script> <!-- Link to your frontend JavaScript -->
+</body>
+</html>

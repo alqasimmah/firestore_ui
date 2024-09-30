@@ -1,0 +1,15 @@
+[
+    {
+      "id": "subject1",
+      "levelId": "level1",
+      "name": "math",
+      "ar_title": "الرياضيات"
+    },
+    {
+      "id": "subject2",
+      "levelId": "level1",
+      "name": "english",
+      "ar_title": "الإنجليزية"
+    }
+  ]
+  

@@ -1,0 +1,15 @@
+[
+    {
+      "id": "level1",
+      "curriculumId": "curriculum1",
+      "name": "1st_middle",
+      "ar_title": "المستوى الأول"
+    },
+    {
+      "id": "level2",
+      "curriculumId": "curriculum1",
+      "name": "2nd_middle",
+      "ar_title": "المستوى الثاني"
+    }
+  ]
+  
