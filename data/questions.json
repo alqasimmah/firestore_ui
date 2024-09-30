@@ -1,0 +1,23 @@
+[
+  {
+    "subjectId": "subject1",
+    "type": "definition",
+    "text": "testQuestion",
+    "options": [],
+    "correctAnswer": "testAnswer"
+  },
+  {
+    "subjectId": "subject1",
+    "type": "definition",
+    "text": "testQuestion2",
+    "options": [],
+    "correctAnswer": "testAnswer2"
+  },
+  {
+    "subjectId": "subject1",
+    "type": "part",
+    "text": "test3",
+    "options": [],
+    "correctAnswer": "answer3"
+  }
+]
