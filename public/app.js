@@ -8,6 +8,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let selectedSubjectId = null;
 
+    // Initialize Quill Editor
+    const quill = new Quill('#question-text-editor', {
+        theme: 'snow'
+    });
+
     // Fetch curriculums on page load
     fetch('/api/curriculums')
         .then(response => {
@@ -95,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Save the question to the backend
     saveQuestionBtn.addEventListener('click', function() {
         const questionType = questionTypeSelect.value;
-        const questionText = document.getElementById('question-text').value;
+        const questionText = quill.root.innerHTML; // Get HTML content from Quill editor
         const correctAnswer = document.getElementById('correct-answer').value;
 
         let options = [];
@@ -111,7 +116,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const questionData = {
             subjectId: selectedSubjectId,
             type: questionType,
-            text: questionText,
+            text: questionText, // HTML formatted text from Quill
             options: options,
             correctAnswer: correctAnswer
         };
@@ -137,6 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             alert('Question saved successfully!');
             // Optionally reset the form here if needed
+            quill.root.innerHTML = ''; // Clear Quill editor content
         })
         .catch(error => {
             console.error('Error saving question:', error);

@@ -9,15 +9,8 @@
   {
     "subjectId": "subject1",
     "type": "definition",
-    "text": "testQuestion2",
+    "text": "<p>هذا مثال بسيط للاختبار</p><p>هذا سطر جديد للتجربة</p><p><br></p><p>وهذان سطران اخران</p>",
     "options": [],
-    "correctAnswer": "testAnswer2"
-  },
-  {
-    "subjectId": "subject1",
-    "type": "part",
-    "text": "test3",
-    "options": [],
-    "correctAnswer": "answer3"
+    "correctAnswer": "خطأ"
   }
 ]

@@ -3,9 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline' http://gc.kis.v2.scr.kaspersky-labs.com ws://gc.kis.v2.scr.kaspersky-labs.com;">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://cdn.quilljs.com 'unsafe-inline'; script-src 'self' https://cdn.quilljs.com 'unsafe-inline' 'unsafe-eval';">
     <title>Curriculum Selector</title>
+    
+    <!-- Use local Quill files -->
+    <link href="/quill/quill.snow.css" rel="stylesheet">
+    <script src="/quill/quill.js"></script>
+    
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <div class="container">
@@ -48,10 +54,10 @@
             </select>
         </div>
 
-        <!-- Question Text Input -->
+        <!-- Question Text Input (Quill Editor) -->
         <div class="form-row">
             <label for="question-text">Question Text:</label>
-            <textarea id="question-text" rows="4" placeholder="Enter the question text here..."></textarea>
+            <div id="question-text-editor"></div> <!-- Quill editor -->
         </div>
 
         <!-- MCQ Options Section (Hidden by default) -->
