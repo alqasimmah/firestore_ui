@@ -12,5 +12,16 @@
     "text": "<p>هذا مثال بسيط للاختبار</p><p>هذا سطر جديد للتجربة</p><p><br></p><p>وهذان سطران اخران</p>",
     "options": [],
     "correctAnswer": "خطأ"
+  },
+  {
+    "curriculumId": "curriculum1",
+    "levelId": "level1",
+    "subjectId": "subject1",
+    "chapterId": "chapter1",
+    "lessonId": "lesson1",
+    "type": "definition",
+    "text": "<p>هذا نص اختبار</p>",
+    "options": [],
+    "correctAnswer": "فايفالا"
   }
 ]

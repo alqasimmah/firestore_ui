@@ -1,17 +1,19 @@
 document.addEventListener('DOMContentLoaded', function() {
+    // Initialize Quill
+    const quill = new Quill('#question-text-editor', {
+        theme: 'snow'  // Use the 'snow' theme
+    });
+    
     const curriculumSelect = document.getElementById('curriculum-select');
     const levelSelect = document.getElementById('level-select');
     const subjectSelect = document.getElementById('subject-select');
+    const chapterSelect = document.getElementById('chapter-select');
+    const lessonSelect = document.getElementById('lesson-select');
     const questionTypeSelect = document.getElementById('question-type');
     const mcqOptionsDiv = document.getElementById('mcq-options');
     const saveQuestionBtn = document.getElementById('save-question');
-
-    let selectedSubjectId = null;
-
-    // Initialize Quill Editor
-    const quill = new Quill('#question-text-editor', {
-        theme: 'snow'
-    });
+        
+    let selectedLessonId = null;
 
     // Fetch curriculums on page load
     fetch('/api/curriculums')
@@ -23,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
             data.forEach(curriculum => {
                 const option = document.createElement('option');
                 option.value = curriculum.id;
-                option.textContent = curriculum.ar_title; // Show the Arabic title
+                option.textContent = curriculum.ar_title;
                 curriculumSelect.appendChild(option);
             });
         })
@@ -48,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     data.forEach(level => {
                         const option = document.createElement('option');
                         option.value = level.id;
-                        option.textContent = level.ar_title; // Show the Arabic title
+                        option.textContent = level.ar_title;
                         levelSelect.appendChild(option);
                     });
                 })
@@ -75,7 +77,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     data.forEach(subject => {
                         const option = document.createElement('option');
                         option.value = subject.id;
-                        option.textContent = subject.ar_title; // Show the Arabic title
+                        option.textContent = subject.ar_title;
                         subjectSelect.appendChild(option);
                     });
                 })
@@ -86,9 +88,63 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Update selected subject ID
+    // Fetch chapters when a subject is selected
     subjectSelect.addEventListener('change', function() {
-        selectedSubjectId = subjectSelect.value;
+        const subjectId = subjectSelect.value;
+        chapterSelect.disabled = !subjectId;
+        chapterSelect.innerHTML = '<option value="">--Select Chapter--</option>'; // Reset chapters
+
+        if (subjectId) {
+            fetch(`/api/chapters/${subjectId}`)
+                .then(response => {
+                    if (!response.ok) throw new Error('Failed to fetch chapters');
+                    return response.json();
+                })
+                .then(data => {
+                    data.forEach(chapter => {
+                        const option = document.createElement('option');
+                        option.value = chapter.id;
+                        option.textContent = chapter.ar_title;
+                        chapterSelect.appendChild(option);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching chapters:', error);
+                    alert('Error loading chapters. Please try again later.');
+                });
+        }
+    });
+
+    // Fetch lessons when a chapter is selected
+    chapterSelect.addEventListener('change', function() {
+        const chapterId = chapterSelect.value;
+        lessonSelect.disabled = !chapterId;
+        lessonSelect.innerHTML = '<option value="">--Select Lesson--</option>'; // Reset lessons
+
+        if (chapterId) {
+            fetch(`/api/lessons/${chapterId}`)
+                .then(response => {
+                    if (!response.ok) throw new Error('Failed to fetch lessons');
+                    return response.json();
+                })
+                .then(data => {
+                    data.forEach(lesson => {
+                        const option = document.createElement('option');
+                        option.value = lesson.id;
+                        option.textContent = lesson.ar_title;
+                        lessonSelect.appendChild(option);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching lessons:', error);
+                    alert('Error loading lessons. Please try again later.');
+                });
+        }
+    });
+
+    // Update selected lesson ID
+    lessonSelect.addEventListener('change', function() {
+        selectedLessonId = lessonSelect.value;
     });
 
     // Show or hide MCQ options based on question type
@@ -100,7 +156,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Save the question to the backend
     saveQuestionBtn.addEventListener('click', function() {
         const questionType = questionTypeSelect.value;
-        const questionText = quill.root.innerHTML; // Get HTML content from Quill editor
+        const questionText = document.querySelector('.ql-editor').innerHTML; // Get HTML from Quill editor
         const correctAnswer = document.getElementById('correct-answer').value;
 
         let options = [];
@@ -114,9 +170,13 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         const questionData = {
-            subjectId: selectedSubjectId,
+            curriculumId: curriculumSelect.value,
+            levelId: levelSelect.value,
+            subjectId: subjectSelect.value,
+            chapterId: chapterSelect.value,
+            lessonId: selectedLessonId,
             type: questionType,
-            text: questionText, // HTML formatted text from Quill
+            text: questionText,
             options: options,
             correctAnswer: correctAnswer
         };
@@ -142,7 +202,6 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             alert('Question saved successfully!');
             // Optionally reset the form here if needed
-            quill.root.innerHTML = ''; // Clear Quill editor content
         })
         .catch(error => {
             console.error('Error saving question:', error);

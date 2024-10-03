@@ -4,57 +4,56 @@ const path = require('path');
 // Utility function to read and write JSON files
 const readJSONFile = (filePath) => {
     try {
-        return JSON.parse(fs.readFileSync(filePath, 'utf8'));
-    } catch (error) {
-        console.error('Error reading JSON file:', error);
-        throw error;
+        const fileContent = fs.readFileSync(filePath, 'utf8');
+        return fileContent ? JSON.parse(fileContent) : []; // Return an empty array if file is empty
+    } catch (err) {
+        console.error('Error reading file:', filePath, err);
+        return []; // Return empty array if an error occurs
     }
 };
-
-const writeJSONFile = (filePath, data) => {
-    try {
-        fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-    } catch (error) {
-        console.error('Error writing to JSON file:', error);
-        throw error;
-    }
-};
+const writeJSONFile = (filePath, data) => fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
 
 // Get curriculums
 exports.getCurriculums = (req, res) => {
-    try {
-        const curriculumsFilePath = path.join(__dirname, '../data/curriculums.json');
-        const curriculums = readJSONFile(curriculumsFilePath);
-        res.json(curriculums);
-    } catch (error) {
-        res.status(500).json({ message: 'Error fetching curriculums', error });
-    }
+    const curriculumsFilePath = path.join(__dirname, '../data/curriculums.json');
+    const curriculums = readJSONFile(curriculumsFilePath);
+    res.json(curriculums);
 };
 
 // Get levels by curriculum ID
 exports.getLevelsByCurriculum = (req, res) => {
-    try {
-        const { curriculumId } = req.params;
-        const levelsFilePath = path.join(__dirname, '../data/levels.json');
-        const levels = readJSONFile(levelsFilePath);
-        const filteredLevels = levels.filter(level => level.curriculumId === curriculumId);
-        res.json(filteredLevels);
-    } catch (error) {
-        res.status(500).json({ message: 'Error fetching levels', error });
-    }
+    const { curriculumId } = req.params;
+    const levelsFilePath = path.join(__dirname, '../data/levels.json');
+    const levels = readJSONFile(levelsFilePath);
+    const filteredLevels = levels.filter(level => level.curriculumId === curriculumId);
+    res.json(filteredLevels);
 };
 
 // Get subjects by level ID
 exports.getSubjectsByLevel = (req, res) => {
-    try {
-        const { levelId } = req.params;
-        const subjectsFilePath = path.join(__dirname, '../data/subjects.json');
-        const subjects = readJSONFile(subjectsFilePath);
-        const filteredSubjects = subjects.filter(subject => subject.levelId === levelId);
-        res.json(filteredSubjects);
-    } catch (error) {
-        res.status(500).json({ message: 'Error fetching subjects', error });
-    }
+    const { levelId } = req.params;
+    const subjectsFilePath = path.join(__dirname, '../data/subjects.json');
+    const subjects = readJSONFile(subjectsFilePath);
+    const filteredSubjects = subjects.filter(subject => subject.levelId === levelId);
+    res.json(filteredSubjects);
+};
+
+// Get chapters by subject ID
+exports.getChaptersBySubject = (req, res) => {
+    const { subjectId } = req.params;
+    const chaptersFilePath = path.join(__dirname, '../data/chapters.json');
+    const chapters = readJSONFile(chaptersFilePath);
+    const filteredChapters = chapters.filter(chapter => chapter.subjectId === subjectId);
+    res.json(filteredChapters);
+};
+
+// Get lessons by chapter ID
+exports.getLessonsByChapter = (req, res) => {
+    const { chapterId } = req.params;
+    const lessonsFilePath = path.join(__dirname, '../data/lessons.json');
+    const lessons = readJSONFile(lessonsFilePath);
+    const filteredLessons = lessons.filter(lesson => lesson.chapterId === chapterId);
+    res.json(filteredLessons);
 };
 
 // Create a new question

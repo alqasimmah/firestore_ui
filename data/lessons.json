@@ -1,0 +1,83 @@
+[
+    {
+      "id": "lesson1",
+      "chapterId": "chapter1",
+      "name": "Linear Equations",
+      "ar_title": "المعادلات الخطية",
+      "questions": [
+        {
+          "id": "question1",
+          "lessonId": "lesson1",
+          "chapterId": "chapter1",
+          "subjectId": "subject1",
+          "type": "stand-alone",
+          "multi_ref": "",
+          "category": "definition",
+          "text": "<p>What is 2 + 2?</p>",
+          "options": ["2", "3", "4", "5"],
+          "correctAnswer": "4",
+          "createdAt": "timestamp",
+          "updatedAt": "timestamp"
+        },
+        {
+          "id": "question2",
+          "lessonId": "lesson1",
+          "chapterId": "chapter1",
+          "subjectId": "subject1",
+          "type": "mcq",
+          "multi_ref": "",
+          "category": "MCQ",
+          "text": "<p>Solve for x: 3x = 12</p>",
+          "options": ["2", "3", "4", "5"],
+          "correctAnswer": "4",
+          "createdAt": "timestamp",
+          "updatedAt": "timestamp"
+        }
+      ]
+    },
+    {
+      "id": "lesson2",
+      "chapterId": "chapter1",
+      "name": "Quadratic Equations",
+      "ar_title": "المعادلات التربيعية",
+      "questions": [
+        {
+          "id": "question3",
+          "lessonId": "lesson2",
+          "chapterId": "chapter1",
+          "subjectId": "subject1",
+          "type": "stand-alone",
+          "multi_ref": "",
+          "category": "definition",
+          "text": "<p>What is a quadratic equation?</p>",
+          "options": [],
+          "correctAnswer": "<p>An equation of the form ax² + bx + c = 0</p>",
+          "createdAt": "timestamp",
+          "updatedAt": "timestamp"
+        }
+      ]
+    },
+    {
+      "id": "lesson3",
+      "chapterId": "chapter2",
+      "name": "Angles and Lines",
+      "ar_title": "الزوايا والخطوط",
+      "questions": [
+        {
+          "id": "question4",
+          "lessonId": "lesson3",
+          "chapterId": "chapter2",
+          "subjectId": "subject1",
+          "type": "mcq",
+          "multi_ref": "",
+          "category": "MCQ",
+          "text": "<p>How many degrees are there in a right angle?</p>",
+          "options": ["45", "90", "180", "360"],
+          "correctAnswer": "90",
+          "createdAt": "timestamp",
+          "updatedAt": "timestamp"
+        }
+      ]
+    }
+  ]
+  
