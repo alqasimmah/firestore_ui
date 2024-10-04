@@ -28,6 +28,9 @@ app.use((req, res, next) => {
 // Middleware for parsing incoming requests with JSON payloads
 app.use(bodyParser.json());
 
+// Middleware for parsing URL-encoded data
+app.use(bodyParser.urlencoded({ extended: true }));
+
 // Serve static files from the public folder (for the frontend)
 app.use(express.static(path.join(__dirname, 'public')));
 

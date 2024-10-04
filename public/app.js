@@ -22,7 +22,8 @@ document.addEventListener('DOMContentLoaded', function() {
             return response.json();
         })
         .then(data => {
-            data.forEach(curriculum => {
+            Object.keys(data).forEach(curriculumKey => {
+                const curriculum = data[curriculumKey];
                 const option = document.createElement('option');
                 option.value = curriculum.id;
                 option.textContent = curriculum.ar_title;
@@ -47,7 +48,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     return response.json();
                 })
                 .then(data => {
-                    data.forEach(level => {
+                    Object.keys(data).forEach(levelKey => {
+                        const level = data[levelKey];
                         const option = document.createElement('option');
                         option.value = level.id;
                         option.textContent = level.ar_title;
@@ -64,17 +66,19 @@ document.addEventListener('DOMContentLoaded', function() {
     // Fetch subjects when a level is selected
     levelSelect.addEventListener('change', function() {
         const levelId = levelSelect.value;
+        const curriculumId = curriculumSelect.value;
         subjectSelect.disabled = !levelId;
         subjectSelect.innerHTML = '<option value="">--Select Subject--</option>'; // Reset subjects
 
         if (levelId) {
-            fetch(`/api/subjects/${levelId}`)
+            fetch(`/api/subjects/${curriculumId}/${levelId}`)
                 .then(response => {
                     if (!response.ok) throw new Error('Failed to fetch subjects');
                     return response.json();
                 })
                 .then(data => {
-                    data.forEach(subject => {
+                    Object.keys(data).forEach(subjectKey => {
+                        const subject = data[subjectKey];
                         const option = document.createElement('option');
                         option.value = subject.id;
                         option.textContent = subject.ar_title;
@@ -91,17 +95,20 @@ document.addEventListener('DOMContentLoaded', function() {
     // Fetch chapters when a subject is selected
     subjectSelect.addEventListener('change', function() {
         const subjectId = subjectSelect.value;
+        const curriculumId = curriculumSelect.value;
+        const levelId = levelSelect.value;
         chapterSelect.disabled = !subjectId;
         chapterSelect.innerHTML = '<option value="">--Select Chapter--</option>'; // Reset chapters
 
         if (subjectId) {
-            fetch(`/api/chapters/${subjectId}`)
+            fetch(`/api/chapters/${curriculumId}/${levelId}/${subjectId}`)
                 .then(response => {
                     if (!response.ok) throw new Error('Failed to fetch chapters');
                     return response.json();
                 })
                 .then(data => {
-                    data.forEach(chapter => {
+                    Object.keys(data).forEach(chapterKey => {
+                        const chapter = data[chapterKey];
                         const option = document.createElement('option');
                         option.value = chapter.id;
                         option.textContent = chapter.ar_title;
@@ -118,17 +125,21 @@ document.addEventListener('DOMContentLoaded', function() {
     // Fetch lessons when a chapter is selected
     chapterSelect.addEventListener('change', function() {
         const chapterId = chapterSelect.value;
+        const curriculumId = curriculumSelect.value;
+        const levelId = levelSelect.value;
+        const subjectId = subjectSelect.value;
         lessonSelect.disabled = !chapterId;
         lessonSelect.innerHTML = '<option value="">--Select Lesson--</option>'; // Reset lessons
 
         if (chapterId) {
-            fetch(`/api/lessons/${chapterId}`)
+            fetch(`/api/lessons/${curriculumId}/${levelId}/${subjectId}/${chapterId}`)
                 .then(response => {
                     if (!response.ok) throw new Error('Failed to fetch lessons');
                     return response.json();
                 })
                 .then(data => {
-                    data.forEach(lesson => {
+                    Object.keys(data).forEach(lessonKey => {
+                        const lesson = data[lessonKey];
                         const option = document.createElement('option');
                         option.value = lesson.id;
                         option.textContent = lesson.ar_title;
