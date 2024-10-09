@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Save the question to the backend
-    saveQuestionBtn.addEventListener('click', function() {
+    saveQuestionBtn.addEventListener('click', function () {
         const questionType = questionTypeSelect.value;
         const questionText = document.querySelector('.ql-editor').innerHTML; // Get HTML from Quill editor
         const correctAnswer = document.getElementById('correct-answer').value;
@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', function() {
             levelId: levelSelect.value,
             subjectId: subjectSelect.value,
             chapterId: chapterSelect.value,
-            lessonId: selectedLessonId,
+            lessonId: lessonSelect.value,
             type: questionType,
             text: questionText,
             options: options,
@@ -206,17 +206,19 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             body: JSON.stringify(questionData)
         })
-        .then(response => {
-            if (!response.ok) throw new Error('Failed to save question');
-            return response.json();
-        })
-        .then(data => {
-            alert('Question saved successfully!');
-            // Optionally reset the form here if needed
-        })
-        .catch(error => {
-            console.error('Error saving question:', error);
-            alert('Error saving the question. Please try again later.');
-        });
+            .then(response => {
+                if (!response.ok) throw new Error('Failed to save question');
+                return response.json();
+            })
+            .then(data => {
+                alert('Question saved successfully!');
+                // Optionally reset the form here if needed
+            })
+            .catch(error => {
+                console.error('Error saving question:', error);
+                alert('Error saving the question. Please try again later.');
+            });
     });
+
+
 });

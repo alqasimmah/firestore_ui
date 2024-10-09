@@ -113,7 +113,7 @@ exports.getLessonsByChapter = (req, res) => {
     }
 };
 
-// Create a new question
+    // Create a new question
 exports.createQuestion = (req, res) => {
     try {
         const { curriculumId, levelId, subjectId, chapterId, lessonId, ...question } = req.body;
@@ -140,14 +140,23 @@ exports.createQuestion = (req, res) => {
             return res.status(404).json({ message: 'Invalid path for the question. Please check the curriculum, level, subject, chapter, or lesson IDs.' });
         }
 
-        // Add the new question
+        // Get the lesson object
         const lesson = data.collections.curriculums[curriculumId].levels[levelId].subjects[subjectId].chapters[chapterId].lessons[lessonId];
+
+        // Initialize the questions object if it doesn't exist
         if (!lesson.questions) {
             lesson.questions = {};
         }
+
+        // Create a new question ID
         const questionId = `question_${Object.keys(lesson.questions).length + 1}`;
+
+        // Add the new question to the lesson
         lesson.questions[questionId] = {
             id: questionId,
+            subjectId,
+            chapterId,
+            lessonId,
             ...question,
             createdAt: new Date().toISOString(),
             updatedAt: new Date().toISOString(),
@@ -162,6 +171,8 @@ exports.createQuestion = (req, res) => {
         res.status(500).json({ message: 'Error saving the question', error });
     }
 };
+
+
 
 exports.getQuestions = (req, res) => {
     const questionsFilePath = path.join(__dirname, '../data/questions.json');

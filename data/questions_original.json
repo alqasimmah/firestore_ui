@@ -1,0 +1,68 @@
+{
+  "collections": {
+    "curriculums": {
+      "curriculum1": {
+        "id": "curriculum1",
+        "name": "general_curriculum",
+        "ar_title": "المنهاج العام",
+        "levels": {
+          "level1": {
+            "id": "level1",
+            "curriculumId": "curriculum1",
+            "name": "1st_middle",
+            "ar_title": "الأول المتوسط",
+            "subjects": {
+              "subject1": {
+                "id": "subject1",
+                "levelId": "level1",
+                "name": "islamic",
+                "ar_title": "التربية الإسلامية",
+                "chapters": {
+                  "chapter1": {
+                    "id": "chapter1",
+                    "subjectId": "subject1",
+                    "name": "Algebra",
+                    "ar_title": "الجبر",
+                    "lessons": {
+                      "lesson1": {
+                        "id": "lesson1",
+                        "chapterId": "chapter1",
+                        "name": "Linear Equations",
+                        "ar_title": "المعادلات الخطية",
+                        "questions": {
+                          "question_1": {
+                            "id": "question_1",
+                            "type": "definition",
+                            "text": "<p>هذا نص اختبار</p>",
+                            "options": [],
+                            "correctAnswer": "فايفالا",
+                            "createdAt": "2024-10-04T12:00:00Z",
+                            "updatedAt": "2024-10-04T12:00:00Z"
+                          },
+                          "question_2": {
+                            "id": "question_2",
+                            "type": "mcq",
+                            "text": "<p>عدد انواع المعادلات الخطية؟</p>",
+                            "options": [
+                              "الجبرية",
+                              "الاختبارية",
+                              "لا شيء",
+                              "الكل"
+                            ],
+                            "correctAnswer": "لا شيء",
+                            "createdAt": "2024-10-04T15:06:56.409Z",
+                            "updatedAt": "2024-10-04T15:06:56.409Z"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

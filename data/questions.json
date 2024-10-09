@@ -1,59 +1,3684 @@
 {
   "collections": {
     "curriculums": {
-      "curriculum1": {
-        "id": "curriculum1",
+      "gc": {
+        "id": "gc",
         "name": "general_curriculum",
         "ar_title": "المنهاج العام",
         "levels": {
-          "level1": {
-            "id": "level1",
-            "curriculumId": "curriculum1",
-            "name": "1st_middle",
-            "ar_title": "الأول المتوسط",
+          "gc-i1": {
+            "id": "gc-i1",
+            "curriculumId": "gc",
+            "name": "intermediate first",
+            "ar_title": "الاول المتوسط",
             "subjects": {
-              "subject1": {
-                "id": "subject1",
-                "levelId": "level1",
+              "gc-i1-islamic": {
+                "id": "gc-i1-islamic",
+                "levelId": "gc-i1",
                 "name": "islamic",
-                "ar_title": "التربية الإسلامية",
+                "ar_title": "التربية الاسلامية",
                 "chapters": {
-                  "chapter1": {
-                    "id": "chapter1",
-                    "subjectId": "subject1",
-                    "name": "Algebra",
-                    "ar_title": "الجبر",
+                  "gc-i1-islamic-00": {
+                    "id": "gc-i1-islamic-00",
+                    "subjectId": "gc-i1-islamic",
+                    "name": "",
+                    "ar_title": "احكام التلاوة",
                     "lessons": {
-                      "lesson1": {
-                        "id": "lesson1",
-                        "chapterId": "chapter1",
-                        "name": "Linear Equations",
-                        "ar_title": "المعادلات الخطية",
+                      "gc-i1-islamic-00-00": {
+                        "id": "gc-i1-islamic-00-00",
+                        "chapterId": "gc-i1-islamic-00",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  },
+                  "gc-i1-islamic-01": {
+                    "id": "gc-i1-islamic-01",
+                    "subjectId": "gc-i1-islamic",
+                    "name": "",
+                    "ar_title": "الوحدة الاولى",
+                    "lessons": {
+                      "gc-i1-islamic-01-01": {
+                        "id": "gc-i1-islamic-01-01",
+                        "chapterId": "gc-i1-islamic-01",
+                        "name": "الدرس الاول",
+                        "ar_title": "سورة الفجر",
+                        "questions": {
+                          "question_1": {
+                            "id": "question_1",
+                            "type": "part",
+                            "text": "<p>ما معنى الفجر؟ </p>",
+                            "options": [],
+                            "correctAnswer": "طلوع النهار",
+                            "createdAt": "2024-10-09T09:45:50.873Z",
+                            "updatedAt": "2024-10-09T09:45:50.873Z"
+                          }
+                        }
+                      },
+                      "gc-i1-islamic-01-02": {
+                        "id": "gc-i1-islamic-01-02",
+                        "chapterId": "gc-i1-islamic-01",
+                        "name": "الدرس الثاني",
+                        "ar_title": "اهمية القرآن الكريم في حياة الانسان"
+                      },
+                      "gc-i1-islamic-01-03": {
+                        "id": "gc-i1-islamic-01-03",
+                        "chapterId": "gc-i1-islamic-01",
+                        "name": "الدرس الثالث",
+                        "ar_title": "الحديث الشريف (من سن سنة حسنة )"
+                      },
+                      "gc-i1-islamic-01-04": {
+                        "id": "gc-i1-islamic-01-04",
+                        "chapterId": "gc-i1-islamic-01",
+                        "name": "الدرس الرابع",
+                        "ar_title": "ثمار العبادات"
+                      },
+                      "gc-i1-islamic-01-05": {
+                        "id": "gc-i1-islamic-01-05",
+                        "chapterId": "gc-i1-islamic-01",
+                        "name": "الدرس الخامس",
+                        "ar_title": "من السيرة النبوية الشريفة",
                         "questions": {
                           "question_1": {
                             "id": "question_1",
                             "type": "definition",
-                            "text": "<p>هذا نص اختبار</p>",
+                            "text": "<p>تحدث عن السيرة النبوية الشريفة</p>",
                             "options": [],
-                            "correctAnswer": "فايفالا",
-                            "createdAt": "2024-10-04T12:00:00Z",
-                            "updatedAt": "2024-10-04T12:00:00Z"
-                          },
-                          "question_2": {
-                            "id": "question_2",
-                            "type": "mcq",
-                            "text": "<p>عدد انواع المعادلات الخطية؟</p>",
-                            "options": [
-                              "الجبرية",
-                              "الاختبارية",
-                              "لا شيء",
-                              "الكل"
-                            ],
-                            "correctAnswer": "لا شيء",
-                            "createdAt": "2024-10-04T15:06:56.409Z",
-                            "updatedAt": "2024-10-04T15:06:56.409Z"
+                            "correctAnswer": "سيرة شريفة عطرة",
+                            "createdAt": "2024-10-09T09:23:36.030Z",
+                            "updatedAt": "2024-10-09T09:23:36.030Z"
                           }
                         }
+                      },
+                      "gc-i1-islamic-01-06": {
+                        "id": "gc-i1-islamic-01-06",
+                        "chapterId": "gc-i1-islamic-01",
+                        "name": "الدرس السادس",
+                        "ar_title": "(اداء الامانة)"
+                      }
+                    }
+                  },
+                  "gc-i1-islamic-02": {
+                    "id": "gc-i1-islamic-02",
+                    "subjectId": "gc-i1-islamic",
+                    "name": "",
+                    "ar_title": "الوحدة الثانية",
+                    "lessons": {
+                      "gc-i1-islamic-02-01": {
+                        "id": "gc-i1-islamic-02-01",
+                        "chapterId": "gc-i1-islamic-02",
+                        "name": "الدرس الاول",
+                        "ar_title": "سورة البروج"
+                      },
+                      "gc-i1-islamic-02-02": {
+                        "id": "gc-i1-islamic-02-02",
+                        "chapterId": "gc-i1-islamic-02",
+                        "name": "الدرس الثاني",
+                        "ar_title": "القرآن الكريم"
+                      },
+                      "gc-i1-islamic-02-03": {
+                        "id": "gc-i1-islamic-02-03",
+                        "chapterId": "gc-i1-islamic-02",
+                        "name": "الدرس الثالث",
+                        "ar_title": "الحديث الشريف (الصدق والكذب)"
+                      },
+                      "gc-i1-islamic-02-04": {
+                        "id": "gc-i1-islamic-02-04",
+                        "chapterId": "gc-i1-islamic-02",
+                        "name": "الدرس الرابع",
+                        "ar_title": "الطهارة"
+                      },
+                      "gc-i1-islamic-02-05": {
+                        "id": "gc-i1-islamic-02-05",
+                        "chapterId": "gc-i1-islamic-02",
+                        "name": "الدرس الخامس",
+                        "ar_title": "من السيرة النبوية الشريفةر(هجرة النبي)"
+                      },
+                      "gc-i1-islamic-02-06": {
+                        "id": "gc-i1-islamic-02-06",
+                        "chapterId": "gc-i1-islamic-02",
+                        "name": "الدرس السادس",
+                        "ar_title": "التهذ يب (النظافة)"
+                      }
+                    }
+                  },
+                  "gc-i1-islamic-03": {
+                    "id": "gc-i1-islamic-03",
+                    "subjectId": "gc-i1-islamic",
+                    "name": "",
+                    "ar_title": "الوحدة الثالثة",
+                    "lessons": {
+                      "gc-i1-islamic-03-01": {
+                        "id": "gc-i1-islamic-03-01",
+                        "chapterId": "gc-i1-islamic-03",
+                        "name": "الدرس الاول",
+                        "ar_title": "سورة الانشقاق",
+                        "questions": {
+                          "question_1": {
+                            "id": "question_1",
+                            "subjectId": "gc-i1-islamic",
+                            "chapterId": "gc-i1-islamic-03",
+                            "lessonId": "gc-i1-islamic-03-01",
+                            "type": "part",
+                            "text": "<p>ما المقصود بالانشقاق؟\t\t</p>",
+                            "options": [],
+                            "correctAnswer": "انشقاق السماء",
+                            "createdAt": "2024-10-09T09:51:31.861Z",
+                            "updatedAt": "2024-10-09T09:51:31.862Z"
+                          }
+                        }
+                      },
+                      "gc-i1-islamic-03-02": {
+                        "id": "gc-i1-islamic-03-02",
+                        "chapterId": "gc-i1-islamic-03",
+                        "name": "الدرس الثاني",
+                        "ar_title": "القرآن الكريم نزوله وموضوعاته"
+                      },
+                      "gc-i1-islamic-03-03": {
+                        "id": "gc-i1-islamic-03-03",
+                        "chapterId": "gc-i1-islamic-03",
+                        "name": "الدرس الثالث",
+                        "ar_title": "الحديث الشريف (النهي عن الحسد)"
+                      },
+                      "gc-i1-islamic-03-04": {
+                        "id": "gc-i1-islamic-03-04",
+                        "chapterId": "gc-i1-islamic-03",
+                        "name": "الدرس الرابع",
+                        "ar_title": "الوضوء",
+                        "questions": {
+                          "question_1": {
+                            "id": "question_1",
+                            "subjectId": "gc-i1-islamic",
+                            "chapterId": "gc-i1-islamic-03",
+                            "lessonId": "gc-i1-islamic-03-04",
+                            "type": "mcq",
+                            "text": "<p>ما احكام الوضوء؟</p>",
+                            "options": [
+                              "غسل الوجه",
+                              "اليدين",
+                              "الشعر",
+                              "القدمين"
+                            ],
+                            "correctAnswer": "الكل",
+                            "createdAt": "2024-10-09T09:54:00.186Z",
+                            "updatedAt": "2024-10-09T09:54:00.186Z"
+                          }
+                        }
+                      },
+                      "gc-i1-islamic-03-05": {
+                        "id": "gc-i1-islamic-03-05",
+                        "chapterId": "gc-i1-islamic-03",
+                        "name": "الدرس الخامس",
+                        "ar_title": "من سير الصحابة ابو بكر الصديق (رض)"
+                      },
+                      "gc-i1-islamic-03-06": {
+                        "id": "gc-i1-islamic-03-06",
+                        "chapterId": "gc-i1-islamic-03",
+                        "name": "الدرس السادس",
+                        "ar_title": "السخرية واللمز والتنابز بالألقاب"
+                      }
+                    }
+                  },
+                  "gc-i1-islamic-04": {
+                    "id": "gc-i1-islamic-04",
+                    "subjectId": "gc-i1-islamic",
+                    "name": "",
+                    "ar_title": "الوحدة الرابعة",
+                    "lessons": {
+                      "gc-i1-islamic-04-01": {
+                        "id": "gc-i1-islamic-04-01",
+                        "chapterId": "gc-i1-islamic-04",
+                        "name": "الدرس الاول",
+                        "ar_title": "سورة المطففين"
+                      },
+                      "gc-i1-islamic-04-02": {
+                        "id": "gc-i1-islamic-04-02",
+                        "chapterId": "gc-i1-islamic-04",
+                        "name": "الدرس الثاني",
+                        "ar_title": "القصص القرآني"
+                      },
+                      "gc-i1-islamic-04-03": {
+                        "id": "gc-i1-islamic-04-03",
+                        "chapterId": "gc-i1-islamic-04",
+                        "name": "الدرس الثالث",
+                        "ar_title": "الحديث الشريف (أحب الاعمال الى الله)"
+                      },
+                      "gc-i1-islamic-04-04": {
+                        "id": "gc-i1-islamic-04-04",
+                        "chapterId": "gc-i1-islamic-04",
+                        "name": "الدرس الرابع",
+                        "ar_title": "فريضة الصلاة"
+                      },
+                      "gc-i1-islamic-04-05": {
+                        "id": "gc-i1-islamic-04-05",
+                        "chapterId": "gc-i1-islamic-04",
+                        "name": "الدرس الخامس",
+                        "ar_title": "الامام الحسن بن علي بن ابي طالب (عليهما السلام)"
+                      },
+                      "gc-i1-islamic-04-06": {
+                        "id": "gc-i1-islamic-04-06",
+                        "chapterId": "gc-i1-islamic-04",
+                        "name": "الدرس السادس",
+                        "ar_title": "التعاون"
+                      }
+                    }
+                  },
+                  "gc-i1-islamic-05": {
+                    "id": "gc-i1-islamic-05",
+                    "subjectId": "gc-i1-islamic",
+                    "name": "",
+                    "ar_title": "الوحدة الخامسة",
+                    "lessons": {
+                      "gc-i1-islamic-05-01": {
+                        "id": "gc-i1-islamic-05-01",
+                        "chapterId": "gc-i1-islamic-05",
+                        "name": "الدرس الاول",
+                        "ar_title": "سورة الانفطار"
+                      },
+                      "gc-i1-islamic-05-02": {
+                        "id": "gc-i1-islamic-05-02",
+                        "chapterId": "gc-i1-islamic-05",
+                        "name": "الدرس الثاني",
+                        "ar_title": "اسماعيل (عليه السلام)"
+                      },
+                      "gc-i1-islamic-05-03": {
+                        "id": "gc-i1-islamic-05-03",
+                        "chapterId": "gc-i1-islamic-05",
+                        "name": "الدرس الثالث",
+                        "ar_title": "الحديث الشريف (تقوى الله وحسن معاملة الناس)"
+                      },
+                      "gc-i1-islamic-05-04": {
+                        "id": "gc-i1-islamic-05-04",
+                        "chapterId": "gc-i1-islamic-05",
+                        "name": "الدرس الرابع",
+                        "ar_title": "اهمية الصلاة"
+                      },
+                      "gc-i1-islamic-05-05": {
+                        "id": "gc-i1-islamic-05-05",
+                        "chapterId": "gc-i1-islamic-05",
+                        "name": "الدرس الخامس",
+                        "ar_title": "الامام زين العابدين (عليه السلام)"
+                      },
+                      "gc-i1-islamic-05-06": {
+                        "id": "gc-i1-islamic-05-06",
+                        "chapterId": "gc-i1-islamic-05",
+                        "name": "الدرس السادس",
+                        "ar_title": "السرقة"
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i1-arabic": {
+                "id": "gc-i1-arabic",
+                "levelId": "gc-i1",
+                "name": "arabic",
+                "ar_title": "اللغة العربية",
+                "chapters": {
+                  "gc-i1-arabic-": {
+                    "id": "gc-i1-arabic-",
+                    "subjectId": "gc-i1-arabic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i1-arabic--": {
+                        "id": "gc-i1-arabic--",
+                        "chapterId": "gc-i1-arabic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i1-english": {
+                "id": "gc-i1-english",
+                "levelId": "gc-i1",
+                "name": "english",
+                "ar_title": "اللغة الانكليزية",
+                "chapters": {
+                  "gc-i1-english-": {
+                    "id": "gc-i1-english-",
+                    "subjectId": "gc-i1-english",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i1-english--": {
+                        "id": "gc-i1-english--",
+                        "chapterId": "gc-i1-english-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i1-math": {
+                "id": "gc-i1-math",
+                "levelId": "gc-i1",
+                "name": "math",
+                "ar_title": "الرياضيات",
+                "chapters": {
+                  "gc-i1-math-": {
+                    "id": "gc-i1-math-",
+                    "subjectId": "gc-i1-math",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i1-math--": {
+                        "id": "gc-i1-math--",
+                        "chapterId": "gc-i1-math-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i1-social": {
+                "id": "gc-i1-social",
+                "levelId": "gc-i1",
+                "name": "social",
+                "ar_title": "الاجتماعيات",
+                "chapters": {
+                  "gc-i1-social-": {
+                    "id": "gc-i1-social-",
+                    "subjectId": "gc-i1-social",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i1-social--": {
+                        "id": "gc-i1-social--",
+                        "chapterId": "gc-i1-social-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i1-biology": {
+                "id": "gc-i1-biology",
+                "levelId": "gc-i1",
+                "name": "biology",
+                "ar_title": "الاحياء",
+                "chapters": {
+                  "gc-i1-biology-": {
+                    "id": "gc-i1-biology-",
+                    "subjectId": "gc-i1-biology",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i1-biology--": {
+                        "id": "gc-i1-biology--",
+                        "chapterId": "gc-i1-biology-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i1-chemistry": {
+                "id": "gc-i1-chemistry",
+                "levelId": "gc-i1",
+                "name": "chemistry",
+                "ar_title": "الكيمياء",
+                "chapters": {
+                  "gc-i1-chemistry-": {
+                    "id": "gc-i1-chemistry-",
+                    "subjectId": "gc-i1-chemistry",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i1-chemistry--": {
+                        "id": "gc-i1-chemistry--",
+                        "chapterId": "gc-i1-chemistry-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i1-physics": {
+                "id": "gc-i1-physics",
+                "levelId": "gc-i1",
+                "name": "physics",
+                "ar_title": "الفيزياء",
+                "chapters": {
+                  "gc-i1-physics-": {
+                    "id": "gc-i1-physics-",
+                    "subjectId": "gc-i1-physics",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i1-physics--": {
+                        "id": "gc-i1-physics--",
+                        "chapterId": "gc-i1-physics-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i1-computer": {
+                "id": "gc-i1-computer",
+                "levelId": "gc-i1",
+                "name": "computer",
+                "ar_title": "الحاسوب",
+                "chapters": {
+                  "gc-i1-computer-": {
+                    "id": "gc-i1-computer-",
+                    "subjectId": "gc-i1-computer",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i1-computer--": {
+                        "id": "gc-i1-computer--",
+                        "chapterId": "gc-i1-computer-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i1-french": {
+                "id": "gc-i1-french",
+                "levelId": "gc-i1",
+                "name": "french",
+                "ar_title": "اللغة الفرنسية",
+                "chapters": {
+                  "gc-i1-french-": {
+                    "id": "gc-i1-french-",
+                    "subjectId": "gc-i1-french",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i1-french--": {
+                        "id": "gc-i1-french--",
+                        "chapterId": "gc-i1-french-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i1-ethics": {
+                "id": "gc-i1-ethics",
+                "levelId": "gc-i1",
+                "name": "ethics",
+                "ar_title": "التربية الاخلاقية",
+                "chapters": {
+                  "gc-i1-ethics-": {
+                    "id": "gc-i1-ethics-",
+                    "subjectId": "gc-i1-ethics",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i1-ethics--": {
+                        "id": "gc-i1-ethics--",
+                        "chapterId": "gc-i1-ethics-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "gc-i2": {
+            "id": "gc-i2",
+            "curriculumId": "gc",
+            "name": "intermediate second",
+            "ar_title": "الثاني المتوسط",
+            "subjects": {
+              "gc-i2-islamic": {
+                "id": "gc-i2-islamic",
+                "levelId": "gc-i2",
+                "name": "islamic",
+                "ar_title": "التربية الاسلامية",
+                "chapters": {
+                  "gc-i2-islamic-": {
+                    "id": "gc-i2-islamic-",
+                    "subjectId": "gc-i2-islamic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i2-islamic--": {
+                        "id": "gc-i2-islamic--",
+                        "chapterId": "gc-i2-islamic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i2-arabic": {
+                "id": "gc-i2-arabic",
+                "levelId": "gc-i2",
+                "name": "arabic",
+                "ar_title": "اللغة العربية",
+                "chapters": {
+                  "gc-i2-arabic-": {
+                    "id": "gc-i2-arabic-",
+                    "subjectId": "gc-i2-arabic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i2-arabic--": {
+                        "id": "gc-i2-arabic--",
+                        "chapterId": "gc-i2-arabic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i2-english": {
+                "id": "gc-i2-english",
+                "levelId": "gc-i2",
+                "name": "english",
+                "ar_title": "اللغة الانكليزية",
+                "chapters": {
+                  "gc-i2-english-": {
+                    "id": "gc-i2-english-",
+                    "subjectId": "gc-i2-english",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i2-english--": {
+                        "id": "gc-i2-english--",
+                        "chapterId": "gc-i2-english-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i2-math": {
+                "id": "gc-i2-math",
+                "levelId": "gc-i2",
+                "name": "math",
+                "ar_title": "الرياضيات",
+                "chapters": {
+                  "gc-i2-math-": {
+                    "id": "gc-i2-math-",
+                    "subjectId": "gc-i2-math",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i2-math--": {
+                        "id": "gc-i2-math--",
+                        "chapterId": "gc-i2-math-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i2-social": {
+                "id": "gc-i2-social",
+                "levelId": "gc-i2",
+                "name": "social",
+                "ar_title": "الاجتماعيات",
+                "chapters": {
+                  "gc-i2-social-": {
+                    "id": "gc-i2-social-",
+                    "subjectId": "gc-i2-social",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i2-social--": {
+                        "id": "gc-i2-social--",
+                        "chapterId": "gc-i2-social-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i2-biology": {
+                "id": "gc-i2-biology",
+                "levelId": "gc-i2",
+                "name": "biology",
+                "ar_title": "الاحياء",
+                "chapters": {
+                  "gc-i2-biology-": {
+                    "id": "gc-i2-biology-",
+                    "subjectId": "gc-i2-biology",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i2-biology--": {
+                        "id": "gc-i2-biology--",
+                        "chapterId": "gc-i2-biology-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i2-chemistry": {
+                "id": "gc-i2-chemistry",
+                "levelId": "gc-i2",
+                "name": "chemistry",
+                "ar_title": "الكيمياء",
+                "chapters": {
+                  "gc-i2-chemistry-": {
+                    "id": "gc-i2-chemistry-",
+                    "subjectId": "gc-i2-chemistry",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i2-chemistry--": {
+                        "id": "gc-i2-chemistry--",
+                        "chapterId": "gc-i2-chemistry-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i2-physics": {
+                "id": "gc-i2-physics",
+                "levelId": "gc-i2",
+                "name": "physics",
+                "ar_title": "الفيزياء",
+                "chapters": {
+                  "gc-i2-physics-": {
+                    "id": "gc-i2-physics-",
+                    "subjectId": "gc-i2-physics",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i2-physics--": {
+                        "id": "gc-i2-physics--",
+                        "chapterId": "gc-i2-physics-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i2-computer": {
+                "id": "gc-i2-computer",
+                "levelId": "gc-i2",
+                "name": "computer",
+                "ar_title": "الحاسوب",
+                "chapters": {
+                  "gc-i2-computer-": {
+                    "id": "gc-i2-computer-",
+                    "subjectId": "gc-i2-computer",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i2-computer--": {
+                        "id": "gc-i2-computer--",
+                        "chapterId": "gc-i2-computer-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i2-french": {
+                "id": "gc-i2-french",
+                "levelId": "gc-i2",
+                "name": "french",
+                "ar_title": "اللغة الفرنسية",
+                "chapters": {
+                  "gc-i2-french-": {
+                    "id": "gc-i2-french-",
+                    "subjectId": "gc-i2-french",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i2-french--": {
+                        "id": "gc-i2-french--",
+                        "chapterId": "gc-i2-french-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "gc-i3": {
+            "id": "gc-i3",
+            "curriculumId": "gc",
+            "name": "intermediate third",
+            "ar_title": "الثالث المتوسط",
+            "subjects": {
+              "gc-i3-islamic": {
+                "id": "gc-i3-islamic",
+                "levelId": "gc-i3",
+                "name": "islamic",
+                "ar_title": "التربية الاسلامية",
+                "chapters": {
+                  "gc-i3-islamic-": {
+                    "id": "gc-i3-islamic-",
+                    "subjectId": "gc-i3-islamic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i3-islamic--": {
+                        "id": "gc-i3-islamic--",
+                        "chapterId": "gc-i3-islamic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i3-arabic": {
+                "id": "gc-i3-arabic",
+                "levelId": "gc-i3",
+                "name": "arabic",
+                "ar_title": "اللغة العربية",
+                "chapters": {
+                  "gc-i3-arabic-": {
+                    "id": "gc-i3-arabic-",
+                    "subjectId": "gc-i3-arabic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i3-arabic--": {
+                        "id": "gc-i3-arabic--",
+                        "chapterId": "gc-i3-arabic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i3-english": {
+                "id": "gc-i3-english",
+                "levelId": "gc-i3",
+                "name": "english",
+                "ar_title": "اللغة الانكليزية",
+                "chapters": {
+                  "gc-i3-english-": {
+                    "id": "gc-i3-english-",
+                    "subjectId": "gc-i3-english",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i3-english--": {
+                        "id": "gc-i3-english--",
+                        "chapterId": "gc-i3-english-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i3-math": {
+                "id": "gc-i3-math",
+                "levelId": "gc-i3",
+                "name": "math",
+                "ar_title": "الرياضيات",
+                "chapters": {
+                  "gc-i3-math-": {
+                    "id": "gc-i3-math-",
+                    "subjectId": "gc-i3-math",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i3-math--": {
+                        "id": "gc-i3-math--",
+                        "chapterId": "gc-i3-math-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i3-social": {
+                "id": "gc-i3-social",
+                "levelId": "gc-i3",
+                "name": "social",
+                "ar_title": "الاجتماعيات",
+                "chapters": {
+                  "gc-i3-social-": {
+                    "id": "gc-i3-social-",
+                    "subjectId": "gc-i3-social",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i3-social--": {
+                        "id": "gc-i3-social--",
+                        "chapterId": "gc-i3-social-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i3-biology": {
+                "id": "gc-i3-biology",
+                "levelId": "gc-i3",
+                "name": "biology",
+                "ar_title": "الاحياء",
+                "chapters": {
+                  "gc-i3-biology-": {
+                    "id": "gc-i3-biology-",
+                    "subjectId": "gc-i3-biology",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i3-biology--": {
+                        "id": "gc-i3-biology--",
+                        "chapterId": "gc-i3-biology-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i3-chemistry": {
+                "id": "gc-i3-chemistry",
+                "levelId": "gc-i3",
+                "name": "chemistry",
+                "ar_title": "الكيمياء",
+                "chapters": {
+                  "gc-i3-chemistry-": {
+                    "id": "gc-i3-chemistry-",
+                    "subjectId": "gc-i3-chemistry",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i3-chemistry--": {
+                        "id": "gc-i3-chemistry--",
+                        "chapterId": "gc-i3-chemistry-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i3-physics": {
+                "id": "gc-i3-physics",
+                "levelId": "gc-i3",
+                "name": "physics",
+                "ar_title": "الفيزياء",
+                "chapters": {
+                  "gc-i3-physics-": {
+                    "id": "gc-i3-physics-",
+                    "subjectId": "gc-i3-physics",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i3-physics--": {
+                        "id": "gc-i3-physics--",
+                        "chapterId": "gc-i3-physics-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i3-computer": {
+                "id": "gc-i3-computer",
+                "levelId": "gc-i3",
+                "name": "computer",
+                "ar_title": "الحاسوب",
+                "chapters": {
+                  "gc-i3-computer-": {
+                    "id": "gc-i3-computer-",
+                    "subjectId": "gc-i3-computer",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i3-computer--": {
+                        "id": "gc-i3-computer--",
+                        "chapterId": "gc-i3-computer-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i3-french": {
+                "id": "gc-i3-french",
+                "levelId": "gc-i3",
+                "name": "french",
+                "ar_title": "اللغة الفرنسية",
+                "chapters": {
+                  "gc-i3-french-": {
+                    "id": "gc-i3-french-",
+                    "subjectId": "gc-i3-french",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-i3-french--": {
+                        "id": "gc-i3-french--",
+                        "chapterId": "gc-i3-french-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "gc-ss4": {
+            "id": "gc-ss4",
+            "curriculumId": "gc",
+            "name": "Scientific Secondary fourth",
+            "ar_title": "الرابع العلمي",
+            "subjects": {
+              "gc-ss4-islamic": {
+                "id": "gc-ss4-islamic",
+                "levelId": "gc-ss4",
+                "name": "islamic",
+                "ar_title": "التربية الاسلامية",
+                "chapters": {
+                  "gc-ss4-islamic-": {
+                    "id": "gc-ss4-islamic-",
+                    "subjectId": "gc-ss4-islamic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss4-islamic--": {
+                        "id": "gc-ss4-islamic--",
+                        "chapterId": "gc-ss4-islamic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss4-arabic": {
+                "id": "gc-ss4-arabic",
+                "levelId": "gc-ss4",
+                "name": "arabic",
+                "ar_title": "اللغة العربية",
+                "chapters": {
+                  "gc-ss4-arabic-": {
+                    "id": "gc-ss4-arabic-",
+                    "subjectId": "gc-ss4-arabic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss4-arabic--": {
+                        "id": "gc-ss4-arabic--",
+                        "chapterId": "gc-ss4-arabic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss4-english": {
+                "id": "gc-ss4-english",
+                "levelId": "gc-ss4",
+                "name": "english",
+                "ar_title": "اللغة الانكليزية",
+                "chapters": {
+                  "gc-ss4-english-": {
+                    "id": "gc-ss4-english-",
+                    "subjectId": "gc-ss4-english",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss4-english--": {
+                        "id": "gc-ss4-english--",
+                        "chapterId": "gc-ss4-english-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss4-math": {
+                "id": "gc-ss4-math",
+                "levelId": "gc-ss4",
+                "name": "math",
+                "ar_title": "الرياضيات",
+                "chapters": {
+                  "gc-ss4-math-": {
+                    "id": "gc-ss4-math-",
+                    "subjectId": "gc-ss4-math",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss4-math--": {
+                        "id": "gc-ss4-math--",
+                        "chapterId": "gc-ss4-math-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss4-biology": {
+                "id": "gc-ss4-biology",
+                "levelId": "gc-ss4",
+                "name": "biology",
+                "ar_title": "الاحياء",
+                "chapters": {
+                  "gc-ss4-biology-": {
+                    "id": "gc-ss4-biology-",
+                    "subjectId": "gc-ss4-biology",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss4-biology--": {
+                        "id": "gc-ss4-biology--",
+                        "chapterId": "gc-ss4-biology-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss4-chemistry": {
+                "id": "gc-ss4-chemistry",
+                "levelId": "gc-ss4",
+                "name": "chemistry",
+                "ar_title": "الكيمياء",
+                "chapters": {
+                  "gc-ss4-chemistry-": {
+                    "id": "gc-ss4-chemistry-",
+                    "subjectId": "gc-ss4-chemistry",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss4-chemistry--": {
+                        "id": "gc-ss4-chemistry--",
+                        "chapterId": "gc-ss4-chemistry-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss4-physics": {
+                "id": "gc-ss4-physics",
+                "levelId": "gc-ss4",
+                "name": "physics",
+                "ar_title": "الفيزياء",
+                "chapters": {
+                  "gc-ss4-physics-": {
+                    "id": "gc-ss4-physics-",
+                    "subjectId": "gc-ss4-physics",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss4-physics--": {
+                        "id": "gc-ss4-physics--",
+                        "chapterId": "gc-ss4-physics-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss4-computer": {
+                "id": "gc-ss4-computer",
+                "levelId": "gc-ss4",
+                "name": "computer",
+                "ar_title": "الحاسوب",
+                "chapters": {
+                  "gc-ss4-computer-": {
+                    "id": "gc-ss4-computer-",
+                    "subjectId": "gc-ss4-computer",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss4-computer--": {
+                        "id": "gc-ss4-computer--",
+                        "chapterId": "gc-ss4-computer-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss4-french": {
+                "id": "gc-ss4-french",
+                "levelId": "gc-ss4",
+                "name": "french",
+                "ar_title": "اللغة الفرنسية",
+                "chapters": {
+                  "gc-ss4-french-": {
+                    "id": "gc-ss4-french-",
+                    "subjectId": "gc-ss4-french",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss4-french--": {
+                        "id": "gc-ss4-french--",
+                        "chapterId": "gc-ss4-french-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss4-kurdish": {
+                "id": "gc-ss4-kurdish",
+                "levelId": "gc-ss4",
+                "name": "kurdish",
+                "ar_title": "اللغة الكردية",
+                "chapters": {
+                  "gc-ss4-kurdish-": {
+                    "id": "gc-ss4-kurdish-",
+                    "subjectId": "gc-ss4-kurdish",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss4-kurdish--": {
+                        "id": "gc-ss4-kurdish--",
+                        "chapterId": "gc-ss4-kurdish-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "gc-ls4": {
+            "id": "gc-ls4",
+            "curriculumId": "gc",
+            "name": "Literary Secondary fourth",
+            "ar_title": "الرابع الادبي",
+            "subjects": {
+              "gc-ls4-islamic": {
+                "id": "gc-ls4-islamic",
+                "levelId": "gc-ls4",
+                "name": "islamic",
+                "ar_title": "التربية الاسلامية",
+                "chapters": {
+                  "gc-ls4-islamic-": {
+                    "id": "gc-ls4-islamic-",
+                    "subjectId": "gc-ls4-islamic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls4-islamic--": {
+                        "id": "gc-ls4-islamic--",
+                        "chapterId": "gc-ls4-islamic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls4-arabic": {
+                "id": "gc-ls4-arabic",
+                "levelId": "gc-ls4",
+                "name": "arabic",
+                "ar_title": "اللغة العربية",
+                "chapters": {
+                  "gc-ls4-arabic-": {
+                    "id": "gc-ls4-arabic-",
+                    "subjectId": "gc-ls4-arabic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls4-arabic--": {
+                        "id": "gc-ls4-arabic--",
+                        "chapterId": "gc-ls4-arabic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls4-english": {
+                "id": "gc-ls4-english",
+                "levelId": "gc-ls4",
+                "name": "english",
+                "ar_title": "اللغة الانكليزية",
+                "chapters": {
+                  "gc-ls4-english-": {
+                    "id": "gc-ls4-english-",
+                    "subjectId": "gc-ls4-english",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls4-english--": {
+                        "id": "gc-ls4-english--",
+                        "chapterId": "gc-ls4-english-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls4-math": {
+                "id": "gc-ls4-math",
+                "levelId": "gc-ls4",
+                "name": "math",
+                "ar_title": "الرياضيات",
+                "chapters": {
+                  "gc-ls4-math-": {
+                    "id": "gc-ls4-math-",
+                    "subjectId": "gc-ls4-math",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls4-math--": {
+                        "id": "gc-ls4-math--",
+                        "chapterId": "gc-ls4-math-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls4-history": {
+                "id": "gc-ls4-history",
+                "levelId": "gc-ls4",
+                "name": "history",
+                "ar_title": "التاريخ",
+                "chapters": {
+                  "gc-ls4-history-": {
+                    "id": "gc-ls4-history-",
+                    "subjectId": "gc-ls4-history",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls4-history--": {
+                        "id": "gc-ls4-history--",
+                        "chapterId": "gc-ls4-history-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls4-geography": {
+                "id": "gc-ls4-geography",
+                "levelId": "gc-ls4",
+                "name": "geography",
+                "ar_title": "الجغرافيا",
+                "chapters": {
+                  "gc-ls4-geography-": {
+                    "id": "gc-ls4-geography-",
+                    "subjectId": "gc-ls4-geography",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls4-geography--": {
+                        "id": "gc-ls4-geography--",
+                        "chapterId": "gc-ls4-geography-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls4-social": {
+                "id": "gc-ls4-social",
+                "levelId": "gc-ls4",
+                "name": "social",
+                "ar_title": "الاجتماعيات",
+                "chapters": {
+                  "gc-ls4-social-": {
+                    "id": "gc-ls4-social-",
+                    "subjectId": "gc-ls4-social",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls4-social--": {
+                        "id": "gc-ls4-social--",
+                        "chapterId": "gc-ls4-social-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls4-computer": {
+                "id": "gc-ls4-computer",
+                "levelId": "gc-ls4",
+                "name": "computer",
+                "ar_title": "الحاسوب",
+                "chapters": {
+                  "gc-ls4-computer-": {
+                    "id": "gc-ls4-computer-",
+                    "subjectId": "gc-ls4-computer",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls4-computer--": {
+                        "id": "gc-ls4-computer--",
+                        "chapterId": "gc-ls4-computer-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls4-french": {
+                "id": "gc-ls4-french",
+                "levelId": "gc-ls4",
+                "name": "french",
+                "ar_title": "اللغة الفرنسية",
+                "chapters": {
+                  "gc-ls4-french-": {
+                    "id": "gc-ls4-french-",
+                    "subjectId": "gc-ls4-french",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls4-french--": {
+                        "id": "gc-ls4-french--",
+                        "chapterId": "gc-ls4-french-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls4-kurdish": {
+                "id": "gc-ls4-kurdish",
+                "levelId": "gc-ls4",
+                "name": "kurdish",
+                "ar_title": "اللغة الكردية",
+                "chapters": {
+                  "gc-ls4-kurdish-": {
+                    "id": "gc-ls4-kurdish-",
+                    "subjectId": "gc-ls4-kurdish",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls4-kurdish--": {
+                        "id": "gc-ls4-kurdish--",
+                        "chapterId": "gc-ls4-kurdish-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "gc-ss5": {
+            "id": "gc-ss5",
+            "curriculumId": "gc",
+            "name": "Scientific Secondary fifth",
+            "ar_title": "الخامس العلمي",
+            "subjects": {
+              "gc-ss5-islamic": {
+                "id": "gc-ss5-islamic",
+                "levelId": "gc-ss5",
+                "name": "islamic",
+                "ar_title": "التربية الاسلامية",
+                "chapters": {
+                  "gc-ss5-islamic-": {
+                    "id": "gc-ss5-islamic-",
+                    "subjectId": "gc-ss5-islamic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss5-islamic--": {
+                        "id": "gc-ss5-islamic--",
+                        "chapterId": "gc-ss5-islamic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss5-arabic": {
+                "id": "gc-ss5-arabic",
+                "levelId": "gc-ss5",
+                "name": "arabic",
+                "ar_title": "اللغة العربية",
+                "chapters": {
+                  "gc-ss5-arabic-": {
+                    "id": "gc-ss5-arabic-",
+                    "subjectId": "gc-ss5-arabic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss5-arabic--": {
+                        "id": "gc-ss5-arabic--",
+                        "chapterId": "gc-ss5-arabic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss5-english": {
+                "id": "gc-ss5-english",
+                "levelId": "gc-ss5",
+                "name": "english",
+                "ar_title": "اللغة الانكليزية",
+                "chapters": {
+                  "gc-ss5-english-": {
+                    "id": "gc-ss5-english-",
+                    "subjectId": "gc-ss5-english",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss5-english--": {
+                        "id": "gc-ss5-english--",
+                        "chapterId": "gc-ss5-english-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss5-math": {
+                "id": "gc-ss5-math",
+                "levelId": "gc-ss5",
+                "name": "math",
+                "ar_title": "الرياضيات",
+                "chapters": {
+                  "gc-ss5-math-": {
+                    "id": "gc-ss5-math-",
+                    "subjectId": "gc-ss5-math",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss5-math--": {
+                        "id": "gc-ss5-math--",
+                        "chapterId": "gc-ss5-math-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss5-biology": {
+                "id": "gc-ss5-biology",
+                "levelId": "gc-ss5",
+                "name": "biology",
+                "ar_title": "الاحياء",
+                "chapters": {
+                  "gc-ss5-biology-": {
+                    "id": "gc-ss5-biology-",
+                    "subjectId": "gc-ss5-biology",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss5-biology--": {
+                        "id": "gc-ss5-biology--",
+                        "chapterId": "gc-ss5-biology-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss5-chemistry": {
+                "id": "gc-ss5-chemistry",
+                "levelId": "gc-ss5",
+                "name": "chemistry",
+                "ar_title": "الكيمياء",
+                "chapters": {
+                  "gc-ss5-chemistry-": {
+                    "id": "gc-ss5-chemistry-",
+                    "subjectId": "gc-ss5-chemistry",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss5-chemistry--": {
+                        "id": "gc-ss5-chemistry--",
+                        "chapterId": "gc-ss5-chemistry-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss5-physics": {
+                "id": "gc-ss5-physics",
+                "levelId": "gc-ss5",
+                "name": "physics",
+                "ar_title": "الفيزياء",
+                "chapters": {
+                  "gc-ss5-physics-": {
+                    "id": "gc-ss5-physics-",
+                    "subjectId": "gc-ss5-physics",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss5-physics--": {
+                        "id": "gc-ss5-physics--",
+                        "chapterId": "gc-ss5-physics-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss5-geology": {
+                "id": "gc-ss5-geology",
+                "levelId": "gc-ss5",
+                "name": "geology",
+                "ar_title": "علم الارض",
+                "chapters": {
+                  "gc-ss5-geology-": {
+                    "id": "gc-ss5-geology-",
+                    "subjectId": "gc-ss5-geology",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss5-geology--": {
+                        "id": "gc-ss5-geology--",
+                        "chapterId": "gc-ss5-geology-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss5-computer": {
+                "id": "gc-ss5-computer",
+                "levelId": "gc-ss5",
+                "name": "computer",
+                "ar_title": "الحاسوب",
+                "chapters": {
+                  "gc-ss5-computer-": {
+                    "id": "gc-ss5-computer-",
+                    "subjectId": "gc-ss5-computer",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss5-computer--": {
+                        "id": "gc-ss5-computer--",
+                        "chapterId": "gc-ss5-computer-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss5-french": {
+                "id": "gc-ss5-french",
+                "levelId": "gc-ss5",
+                "name": "french",
+                "ar_title": "اللغة الفرنسية",
+                "chapters": {
+                  "gc-ss5-french-": {
+                    "id": "gc-ss5-french-",
+                    "subjectId": "gc-ss5-french",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss5-french--": {
+                        "id": "gc-ss5-french--",
+                        "chapterId": "gc-ss5-french-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss5-kurdish": {
+                "id": "gc-ss5-kurdish",
+                "levelId": "gc-ss5",
+                "name": "kurdish",
+                "ar_title": "اللغة الكردية",
+                "chapters": {
+                  "gc-ss5-kurdish-": {
+                    "id": "gc-ss5-kurdish-",
+                    "subjectId": "gc-ss5-kurdish",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss5-kurdish--": {
+                        "id": "gc-ss5-kurdish--",
+                        "chapterId": "gc-ss5-kurdish-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "gc-ls5": {
+            "id": "gc-ls5",
+            "curriculumId": "gc",
+            "name": "Literary Secondary fifth",
+            "ar_title": "الخامس الادبي",
+            "subjects": {
+              "gc-ls5-islamic": {
+                "id": "gc-ls5-islamic",
+                "levelId": "gc-ls5",
+                "name": "islamic",
+                "ar_title": "التربية الاسلامية",
+                "chapters": {
+                  "gc-ls5-islamic-": {
+                    "id": "gc-ls5-islamic-",
+                    "subjectId": "gc-ls5-islamic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls5-islamic--": {
+                        "id": "gc-ls5-islamic--",
+                        "chapterId": "gc-ls5-islamic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls5-arabic": {
+                "id": "gc-ls5-arabic",
+                "levelId": "gc-ls5",
+                "name": "arabic",
+                "ar_title": "اللغة العربية",
+                "chapters": {
+                  "gc-ls5-arabic-": {
+                    "id": "gc-ls5-arabic-",
+                    "subjectId": "gc-ls5-arabic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls5-arabic--": {
+                        "id": "gc-ls5-arabic--",
+                        "chapterId": "gc-ls5-arabic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls5-english": {
+                "id": "gc-ls5-english",
+                "levelId": "gc-ls5",
+                "name": "english",
+                "ar_title": "اللغة الانكليزية",
+                "chapters": {
+                  "gc-ls5-english-": {
+                    "id": "gc-ls5-english-",
+                    "subjectId": "gc-ls5-english",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls5-english--": {
+                        "id": "gc-ls5-english--",
+                        "chapterId": "gc-ls5-english-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls5-math": {
+                "id": "gc-ls5-math",
+                "levelId": "gc-ls5",
+                "name": "math",
+                "ar_title": "الرياضيات",
+                "chapters": {
+                  "gc-ls5-math-": {
+                    "id": "gc-ls5-math-",
+                    "subjectId": "gc-ls5-math",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls5-math--": {
+                        "id": "gc-ls5-math--",
+                        "chapterId": "gc-ls5-math-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls5-history": {
+                "id": "gc-ls5-history",
+                "levelId": "gc-ls5",
+                "name": "history",
+                "ar_title": "التاريخ",
+                "chapters": {
+                  "gc-ls5-history-": {
+                    "id": "gc-ls5-history-",
+                    "subjectId": "gc-ls5-history",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls5-history--": {
+                        "id": "gc-ls5-history--",
+                        "chapterId": "gc-ls5-history-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls5-geography": {
+                "id": "gc-ls5-geography",
+                "levelId": "gc-ls5",
+                "name": "geography",
+                "ar_title": "الجغرافيا",
+                "chapters": {
+                  "gc-ls5-geography-": {
+                    "id": "gc-ls5-geography-",
+                    "subjectId": "gc-ls5-geography",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls5-geography--": {
+                        "id": "gc-ls5-geography--",
+                        "chapterId": "gc-ls5-geography-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls5-philosophy": {
+                "id": "gc-ls5-philosophy",
+                "levelId": "gc-ls5",
+                "name": "philosophy",
+                "ar_title": "الفلسفة",
+                "chapters": {
+                  "gc-ls5-philosophy-": {
+                    "id": "gc-ls5-philosophy-",
+                    "subjectId": "gc-ls5-philosophy",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls5-philosophy--": {
+                        "id": "gc-ls5-philosophy--",
+                        "chapterId": "gc-ls5-philosophy-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls5-economy": {
+                "id": "gc-ls5-economy",
+                "levelId": "gc-ls5",
+                "name": "economy",
+                "ar_title": "الاقتصاد",
+                "chapters": {
+                  "gc-ls5-economy-": {
+                    "id": "gc-ls5-economy-",
+                    "subjectId": "gc-ls5-economy",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls5-economy--": {
+                        "id": "gc-ls5-economy--",
+                        "chapterId": "gc-ls5-economy-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls5-computer": {
+                "id": "gc-ls5-computer",
+                "levelId": "gc-ls5",
+                "name": "computer",
+                "ar_title": "الحاسوب",
+                "chapters": {
+                  "gc-ls5-computer-": {
+                    "id": "gc-ls5-computer-",
+                    "subjectId": "gc-ls5-computer",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls5-computer--": {
+                        "id": "gc-ls5-computer--",
+                        "chapterId": "gc-ls5-computer-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls5-french": {
+                "id": "gc-ls5-french",
+                "levelId": "gc-ls5",
+                "name": "french",
+                "ar_title": "اللغة الفرنسية",
+                "chapters": {
+                  "gc-ls5-french-": {
+                    "id": "gc-ls5-french-",
+                    "subjectId": "gc-ls5-french",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls5-french--": {
+                        "id": "gc-ls5-french--",
+                        "chapterId": "gc-ls5-french-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls5-kurdish": {
+                "id": "gc-ls5-kurdish",
+                "levelId": "gc-ls5",
+                "name": "kurdish",
+                "ar_title": "اللغة الكردية",
+                "chapters": {
+                  "gc-ls5-kurdish-": {
+                    "id": "gc-ls5-kurdish-",
+                    "subjectId": "gc-ls5-kurdish",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls5-kurdish--": {
+                        "id": "gc-ls5-kurdish--",
+                        "chapterId": "gc-ls5-kurdish-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "gc-ss6": {
+            "id": "gc-ss6",
+            "curriculumId": "gc",
+            "name": "Scientific Secondary sixth",
+            "ar_title": "السادس العلمي",
+            "subjects": {
+              "gc-ss6-islamic": {
+                "id": "gc-ss6-islamic",
+                "levelId": "gc-ss6",
+                "name": "islamic",
+                "ar_title": "التربية الاسلامية",
+                "chapters": {
+                  "gc-ss6-islamic-": {
+                    "id": "gc-ss6-islamic-",
+                    "subjectId": "gc-ss6-islamic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss6-islamic--": {
+                        "id": "gc-ss6-islamic--",
+                        "chapterId": "gc-ss6-islamic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss6-arabic": {
+                "id": "gc-ss6-arabic",
+                "levelId": "gc-ss6",
+                "name": "arabic",
+                "ar_title": "اللغة العربية",
+                "chapters": {
+                  "gc-ss6-arabic-": {
+                    "id": "gc-ss6-arabic-",
+                    "subjectId": "gc-ss6-arabic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss6-arabic--": {
+                        "id": "gc-ss6-arabic--",
+                        "chapterId": "gc-ss6-arabic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss6-english": {
+                "id": "gc-ss6-english",
+                "levelId": "gc-ss6",
+                "name": "english",
+                "ar_title": "اللغة الانكليزية",
+                "chapters": {
+                  "gc-ss6-english-": {
+                    "id": "gc-ss6-english-",
+                    "subjectId": "gc-ss6-english",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss6-english--": {
+                        "id": "gc-ss6-english--",
+                        "chapterId": "gc-ss6-english-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss6-math": {
+                "id": "gc-ss6-math",
+                "levelId": "gc-ss6",
+                "name": "math",
+                "ar_title": "الرياضيات",
+                "chapters": {
+                  "gc-ss6-math-": {
+                    "id": "gc-ss6-math-",
+                    "subjectId": "gc-ss6-math",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss6-math--": {
+                        "id": "gc-ss6-math--",
+                        "chapterId": "gc-ss6-math-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss6-biology": {
+                "id": "gc-ss6-biology",
+                "levelId": "gc-ss6",
+                "name": "biology",
+                "ar_title": "الاحياء",
+                "chapters": {
+                  "gc-ss6-biology-": {
+                    "id": "gc-ss6-biology-",
+                    "subjectId": "gc-ss6-biology",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss6-biology--": {
+                        "id": "gc-ss6-biology--",
+                        "chapterId": "gc-ss6-biology-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss6-chemistry": {
+                "id": "gc-ss6-chemistry",
+                "levelId": "gc-ss6",
+                "name": "chemistry",
+                "ar_title": "الكيمياء",
+                "chapters": {
+                  "gc-ss6-chemistry-": {
+                    "id": "gc-ss6-chemistry-",
+                    "subjectId": "gc-ss6-chemistry",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss6-chemistry--": {
+                        "id": "gc-ss6-chemistry--",
+                        "chapterId": "gc-ss6-chemistry-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss6-physics": {
+                "id": "gc-ss6-physics",
+                "levelId": "gc-ss6",
+                "name": "physics",
+                "ar_title": "الفيزياء",
+                "chapters": {
+                  "gc-ss6-physics-": {
+                    "id": "gc-ss6-physics-",
+                    "subjectId": "gc-ss6-physics",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss6-physics--": {
+                        "id": "gc-ss6-physics--",
+                        "chapterId": "gc-ss6-physics-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ss6-french": {
+                "id": "gc-ss6-french",
+                "levelId": "gc-ss6",
+                "name": "french",
+                "ar_title": "اللغة الفرنسية",
+                "chapters": {
+                  "gc-ss6-french-": {
+                    "id": "gc-ss6-french-",
+                    "subjectId": "gc-ss6-french",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ss6-french--": {
+                        "id": "gc-ss6-french--",
+                        "chapterId": "gc-ss6-french-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "gc-ls6": {
+            "id": "gc-ls6",
+            "curriculumId": "gc",
+            "name": "Literary Secondary sixth",
+            "ar_title": "السادس الادبي",
+            "subjects": {
+              "gc-ls6-islamic": {
+                "id": "gc-ls6-islamic",
+                "levelId": "gc-ls6",
+                "name": "islamic",
+                "ar_title": "التربية الاسلامية",
+                "chapters": {
+                  "gc-ls6-islamic-": {
+                    "id": "gc-ls6-islamic-",
+                    "subjectId": "gc-ls6-islamic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls6-islamic--": {
+                        "id": "gc-ls6-islamic--",
+                        "chapterId": "gc-ls6-islamic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls6-arabic": {
+                "id": "gc-ls6-arabic",
+                "levelId": "gc-ls6",
+                "name": "arabic",
+                "ar_title": "اللغة العربية",
+                "chapters": {
+                  "gc-ls6-arabic-": {
+                    "id": "gc-ls6-arabic-",
+                    "subjectId": "gc-ls6-arabic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls6-arabic--": {
+                        "id": "gc-ls6-arabic--",
+                        "chapterId": "gc-ls6-arabic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls6-english": {
+                "id": "gc-ls6-english",
+                "levelId": "gc-ls6",
+                "name": "english",
+                "ar_title": "اللغة الانكليزية",
+                "chapters": {
+                  "gc-ls6-english-": {
+                    "id": "gc-ls6-english-",
+                    "subjectId": "gc-ls6-english",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls6-english--": {
+                        "id": "gc-ls6-english--",
+                        "chapterId": "gc-ls6-english-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls6-math": {
+                "id": "gc-ls6-math",
+                "levelId": "gc-ls6",
+                "name": "math",
+                "ar_title": "الرياضيات",
+                "chapters": {
+                  "gc-ls6-math-": {
+                    "id": "gc-ls6-math-",
+                    "subjectId": "gc-ls6-math",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls6-math--": {
+                        "id": "gc-ls6-math--",
+                        "chapterId": "gc-ls6-math-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls6-history": {
+                "id": "gc-ls6-history",
+                "levelId": "gc-ls6",
+                "name": "history",
+                "ar_title": "التاريخ",
+                "chapters": {
+                  "gc-ls6-history-": {
+                    "id": "gc-ls6-history-",
+                    "subjectId": "gc-ls6-history",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls6-history--": {
+                        "id": "gc-ls6-history--",
+                        "chapterId": "gc-ls6-history-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls6-geography": {
+                "id": "gc-ls6-geography",
+                "levelId": "gc-ls6",
+                "name": "geography",
+                "ar_title": "الجغرافيا",
+                "chapters": {
+                  "gc-ls6-geography-": {
+                    "id": "gc-ls6-geography-",
+                    "subjectId": "gc-ls6-geography",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls6-geography--": {
+                        "id": "gc-ls6-geography--",
+                        "chapterId": "gc-ls6-geography-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls6-economy": {
+                "id": "gc-ls6-economy",
+                "levelId": "gc-ls6",
+                "name": "economy",
+                "ar_title": "الاقتصاد",
+                "chapters": {
+                  "gc-ls6-economy-": {
+                    "id": "gc-ls6-economy-",
+                    "subjectId": "gc-ls6-economy",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls6-economy--": {
+                        "id": "gc-ls6-economy--",
+                        "chapterId": "gc-ls6-economy-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-ls6-french": {
+                "id": "gc-ls6-french",
+                "levelId": "gc-ls6",
+                "name": "french",
+                "ar_title": "اللغة الفرنسية",
+                "chapters": {
+                  "gc-ls6-french-": {
+                    "id": "gc-ls6-french-",
+                    "subjectId": "gc-ls6-french",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "gc-ls6-french--": {
+                        "id": "gc-ls6-french--",
+                        "chapterId": "gc-ls6-french-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "spc": {
+        "id": "spc",
+        "name": "special_curriculum",
+        "ar_title": "منهاج المتميزين",
+        "levels": {
+          "spc-i1": {
+            "id": "spc-i1",
+            "curriculumId": "spc",
+            "name": "intermediate first",
+            "ar_title": "First intermediate",
+            "subjects": {
+              "spc-i1-islamic": {
+                "id": "spc-i1-islamic",
+                "levelId": "spc-i1",
+                "name": "islamic",
+                "ar_title": "التربية الاسلامية",
+                "chapters": {
+                  "spc-i1-islamic-": {
+                    "id": "spc-i1-islamic-",
+                    "subjectId": "spc-i1-islamic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i1-islamic--": {
+                        "id": "spc-i1-islamic--",
+                        "chapterId": "spc-i1-islamic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i1-arabic": {
+                "id": "spc-i1-arabic",
+                "levelId": "spc-i1",
+                "name": "arabic",
+                "ar_title": "اللغة العربية",
+                "chapters": {
+                  "spc-i1-arabic-": {
+                    "id": "spc-i1-arabic-",
+                    "subjectId": "spc-i1-arabic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i1-arabic--": {
+                        "id": "spc-i1-arabic--",
+                        "chapterId": "spc-i1-arabic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i1-english": {
+                "id": "spc-i1-english",
+                "levelId": "spc-i1",
+                "name": "english",
+                "ar_title": "اللغة الانكليزية",
+                "chapters": {
+                  "spc-i1-english-": {
+                    "id": "spc-i1-english-",
+                    "subjectId": "spc-i1-english",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i1-english--": {
+                        "id": "spc-i1-english--",
+                        "chapterId": "spc-i1-english-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i1-math": {
+                "id": "spc-i1-math",
+                "levelId": "spc-i1",
+                "name": "math",
+                "ar_title": "Mathematics",
+                "chapters": {
+                  "spc-i1-math-": {
+                    "id": "spc-i1-math-",
+                    "subjectId": "spc-i1-math",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i1-math--": {
+                        "id": "spc-i1-math--",
+                        "chapterId": "spc-i1-math-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i1-social": {
+                "id": "spc-i1-social",
+                "levelId": "spc-i1",
+                "name": "social",
+                "ar_title": "الاجتماعيات",
+                "chapters": {
+                  "spc-i1-social-": {
+                    "id": "spc-i1-social-",
+                    "subjectId": "spc-i1-social",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i1-social--": {
+                        "id": "spc-i1-social--",
+                        "chapterId": "spc-i1-social-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i1-biology": {
+                "id": "spc-i1-biology",
+                "levelId": "spc-i1",
+                "name": "biology",
+                "ar_title": "Biology",
+                "chapters": {
+                  "spc-i1-biology-": {
+                    "id": "spc-i1-biology-",
+                    "subjectId": "spc-i1-biology",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i1-biology--": {
+                        "id": "spc-i1-biology--",
+                        "chapterId": "spc-i1-biology-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i1-chemistry": {
+                "id": "spc-i1-chemistry",
+                "levelId": "spc-i1",
+                "name": "chemistry",
+                "ar_title": "Chemistry",
+                "chapters": {
+                  "spc-i1-chemistry-": {
+                    "id": "spc-i1-chemistry-",
+                    "subjectId": "spc-i1-chemistry",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i1-chemistry--": {
+                        "id": "spc-i1-chemistry--",
+                        "chapterId": "spc-i1-chemistry-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i1-physics": {
+                "id": "spc-i1-physics",
+                "levelId": "spc-i1",
+                "name": "physics",
+                "ar_title": "Physics",
+                "chapters": {
+                  "spc-i1-physics-": {
+                    "id": "spc-i1-physics-",
+                    "subjectId": "spc-i1-physics",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i1-physics--": {
+                        "id": "spc-i1-physics--",
+                        "chapterId": "spc-i1-physics-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i1-computer": {
+                "id": "spc-i1-computer",
+                "levelId": "spc-i1",
+                "name": "computer",
+                "ar_title": "الحاسوب",
+                "chapters": {
+                  "spc-i1-computer-": {
+                    "id": "spc-i1-computer-",
+                    "subjectId": "spc-i1-computer",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i1-computer--": {
+                        "id": "spc-i1-computer--",
+                        "chapterId": "spc-i1-computer-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i1-french": {
+                "id": "spc-i1-french",
+                "levelId": "spc-i1",
+                "name": "french",
+                "ar_title": "اللغة الفرنسية",
+                "chapters": {
+                  "spc-i1-french-": {
+                    "id": "spc-i1-french-",
+                    "subjectId": "spc-i1-french",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i1-french--": {
+                        "id": "spc-i1-french--",
+                        "chapterId": "spc-i1-french-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i1-ethics": {
+                "id": "spc-i1-ethics",
+                "levelId": "spc-i1",
+                "name": "ethics",
+                "ar_title": "التربية الاخلاقية",
+                "chapters": {
+                  "spc-i1-ethics-": {
+                    "id": "spc-i1-ethics-",
+                    "subjectId": "spc-i1-ethics",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i1-ethics--": {
+                        "id": "spc-i1-ethics--",
+                        "chapterId": "spc-i1-ethics-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "spc-i2": {
+            "id": "spc-i2",
+            "curriculumId": "spc",
+            "name": "intermediate second",
+            "ar_title": "Second intermediate",
+            "subjects": {
+              "spc-i2-islamic": {
+                "id": "spc-i2-islamic",
+                "levelId": "spc-i2",
+                "name": "islamic",
+                "ar_title": "التربية الاسلامية",
+                "chapters": {
+                  "spc-i2-islamic-": {
+                    "id": "spc-i2-islamic-",
+                    "subjectId": "spc-i2-islamic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i2-islamic--": {
+                        "id": "spc-i2-islamic--",
+                        "chapterId": "spc-i2-islamic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i2-arabic": {
+                "id": "spc-i2-arabic",
+                "levelId": "spc-i2",
+                "name": "arabic",
+                "ar_title": "اللغة العربية",
+                "chapters": {
+                  "spc-i2-arabic-": {
+                    "id": "spc-i2-arabic-",
+                    "subjectId": "spc-i2-arabic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i2-arabic--": {
+                        "id": "spc-i2-arabic--",
+                        "chapterId": "spc-i2-arabic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i2-english": {
+                "id": "spc-i2-english",
+                "levelId": "spc-i2",
+                "name": "english",
+                "ar_title": "اللغة الانكليزية",
+                "chapters": {
+                  "spc-i2-english-": {
+                    "id": "spc-i2-english-",
+                    "subjectId": "spc-i2-english",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i2-english--": {
+                        "id": "spc-i2-english--",
+                        "chapterId": "spc-i2-english-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i2-math": {
+                "id": "spc-i2-math",
+                "levelId": "spc-i2",
+                "name": "math",
+                "ar_title": "Mathematics",
+                "chapters": {
+                  "spc-i2-math-": {
+                    "id": "spc-i2-math-",
+                    "subjectId": "spc-i2-math",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i2-math--": {
+                        "id": "spc-i2-math--",
+                        "chapterId": "spc-i2-math-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i2-social": {
+                "id": "spc-i2-social",
+                "levelId": "spc-i2",
+                "name": "social",
+                "ar_title": "الاجتماعيات",
+                "chapters": {
+                  "spc-i2-social-": {
+                    "id": "spc-i2-social-",
+                    "subjectId": "spc-i2-social",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i2-social--": {
+                        "id": "spc-i2-social--",
+                        "chapterId": "spc-i2-social-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i2-biology": {
+                "id": "spc-i2-biology",
+                "levelId": "spc-i2",
+                "name": "biology",
+                "ar_title": "Biology",
+                "chapters": {
+                  "spc-i2-biology-": {
+                    "id": "spc-i2-biology-",
+                    "subjectId": "spc-i2-biology",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i2-biology--": {
+                        "id": "spc-i2-biology--",
+                        "chapterId": "spc-i2-biology-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i2-chemistry": {
+                "id": "spc-i2-chemistry",
+                "levelId": "spc-i2",
+                "name": "chemistry",
+                "ar_title": "Chemistry",
+                "chapters": {
+                  "spc-i2-chemistry-": {
+                    "id": "spc-i2-chemistry-",
+                    "subjectId": "spc-i2-chemistry",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i2-chemistry--": {
+                        "id": "spc-i2-chemistry--",
+                        "chapterId": "spc-i2-chemistry-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i2-physics": {
+                "id": "spc-i2-physics",
+                "levelId": "spc-i2",
+                "name": "physics",
+                "ar_title": "Physics",
+                "chapters": {
+                  "spc-i2-physics-": {
+                    "id": "spc-i2-physics-",
+                    "subjectId": "spc-i2-physics",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i2-physics--": {
+                        "id": "spc-i2-physics--",
+                        "chapterId": "spc-i2-physics-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i2-computer": {
+                "id": "spc-i2-computer",
+                "levelId": "spc-i2",
+                "name": "computer",
+                "ar_title": "الحاسوب",
+                "chapters": {
+                  "spc-i2-computer-": {
+                    "id": "spc-i2-computer-",
+                    "subjectId": "spc-i2-computer",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i2-computer--": {
+                        "id": "spc-i2-computer--",
+                        "chapterId": "spc-i2-computer-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i2-french": {
+                "id": "spc-i2-french",
+                "levelId": "spc-i2",
+                "name": "french",
+                "ar_title": "اللغة الفرنسية",
+                "chapters": {
+                  "spc-i2-french-": {
+                    "id": "spc-i2-french-",
+                    "subjectId": "spc-i2-french",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i2-french--": {
+                        "id": "spc-i2-french--",
+                        "chapterId": "spc-i2-french-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "spc-i3": {
+            "id": "spc-i3",
+            "curriculumId": "spc",
+            "name": "intermediate third",
+            "ar_title": "Third intermediate",
+            "subjects": {
+              "spc-i3-islamic": {
+                "id": "spc-i3-islamic",
+                "levelId": "spc-i3",
+                "name": "islamic",
+                "ar_title": "التربية الاسلامية",
+                "chapters": {
+                  "spc-i3-islamic-": {
+                    "id": "spc-i3-islamic-",
+                    "subjectId": "spc-i3-islamic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i3-islamic--": {
+                        "id": "spc-i3-islamic--",
+                        "chapterId": "spc-i3-islamic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i3-arabic": {
+                "id": "spc-i3-arabic",
+                "levelId": "spc-i3",
+                "name": "arabic",
+                "ar_title": "اللغة العربية",
+                "chapters": {
+                  "spc-i3-arabic-": {
+                    "id": "spc-i3-arabic-",
+                    "subjectId": "spc-i3-arabic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i3-arabic--": {
+                        "id": "spc-i3-arabic--",
+                        "chapterId": "spc-i3-arabic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i3-english": {
+                "id": "spc-i3-english",
+                "levelId": "spc-i3",
+                "name": "english",
+                "ar_title": "اللغة الانكليزية",
+                "chapters": {
+                  "spc-i3-english-": {
+                    "id": "spc-i3-english-",
+                    "subjectId": "spc-i3-english",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i3-english--": {
+                        "id": "spc-i3-english--",
+                        "chapterId": "spc-i3-english-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i3-math": {
+                "id": "spc-i3-math",
+                "levelId": "spc-i3",
+                "name": "math",
+                "ar_title": "Mathematics",
+                "chapters": {
+                  "spc-i3-math-": {
+                    "id": "spc-i3-math-",
+                    "subjectId": "spc-i3-math",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i3-math--": {
+                        "id": "spc-i3-math--",
+                        "chapterId": "spc-i3-math-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i3-social": {
+                "id": "spc-i3-social",
+                "levelId": "spc-i3",
+                "name": "social",
+                "ar_title": "الاجتماعيات",
+                "chapters": {
+                  "spc-i3-social-": {
+                    "id": "spc-i3-social-",
+                    "subjectId": "spc-i3-social",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i3-social--": {
+                        "id": "spc-i3-social--",
+                        "chapterId": "spc-i3-social-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i3-biology": {
+                "id": "spc-i3-biology",
+                "levelId": "spc-i3",
+                "name": "biology",
+                "ar_title": "Biology",
+                "chapters": {
+                  "spc-i3-biology-": {
+                    "id": "spc-i3-biology-",
+                    "subjectId": "spc-i3-biology",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i3-biology--": {
+                        "id": "spc-i3-biology--",
+                        "chapterId": "spc-i3-biology-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i3-chemistry": {
+                "id": "spc-i3-chemistry",
+                "levelId": "spc-i3",
+                "name": "chemistry",
+                "ar_title": "Chemistry",
+                "chapters": {
+                  "spc-i3-chemistry-": {
+                    "id": "spc-i3-chemistry-",
+                    "subjectId": "spc-i3-chemistry",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i3-chemistry--": {
+                        "id": "spc-i3-chemistry--",
+                        "chapterId": "spc-i3-chemistry-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i3-physics": {
+                "id": "spc-i3-physics",
+                "levelId": "spc-i3",
+                "name": "physics",
+                "ar_title": "Physics",
+                "chapters": {
+                  "spc-i3-physics-": {
+                    "id": "spc-i3-physics-",
+                    "subjectId": "spc-i3-physics",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i3-physics--": {
+                        "id": "spc-i3-physics--",
+                        "chapterId": "spc-i3-physics-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i3-computer": {
+                "id": "spc-i3-computer",
+                "levelId": "spc-i3",
+                "name": "computer",
+                "ar_title": "الحاسوب",
+                "chapters": {
+                  "spc-i3-computer-": {
+                    "id": "spc-i3-computer-",
+                    "subjectId": "spc-i3-computer",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i3-computer--": {
+                        "id": "spc-i3-computer--",
+                        "chapterId": "spc-i3-computer-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-i3-french": {
+                "id": "spc-i3-french",
+                "levelId": "spc-i3",
+                "name": "french",
+                "ar_title": "اللغة الفرنسية",
+                "chapters": {
+                  "spc-i3-french-": {
+                    "id": "spc-i3-french-",
+                    "subjectId": "spc-i3-french",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-i3-french--": {
+                        "id": "spc-i3-french--",
+                        "chapterId": "spc-i3-french-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "spc-ss4": {
+            "id": "spc-ss4",
+            "curriculumId": "spc",
+            "name": "Scientific Secondary fourth",
+            "ar_title": "Scientific Secondary fourth",
+            "subjects": {
+              "spc-ss4-islamic": {
+                "id": "spc-ss4-islamic",
+                "levelId": "spc-ss4",
+                "name": "islamic",
+                "ar_title": "التربية الاسلامية",
+                "chapters": {
+                  "spc-ss4-islamic-": {
+                    "id": "spc-ss4-islamic-",
+                    "subjectId": "spc-ss4-islamic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss4-islamic--": {
+                        "id": "spc-ss4-islamic--",
+                        "chapterId": "spc-ss4-islamic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss4-arabic": {
+                "id": "spc-ss4-arabic",
+                "levelId": "spc-ss4",
+                "name": "arabic",
+                "ar_title": "اللغة العربية",
+                "chapters": {
+                  "spc-ss4-arabic-": {
+                    "id": "spc-ss4-arabic-",
+                    "subjectId": "spc-ss4-arabic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss4-arabic--": {
+                        "id": "spc-ss4-arabic--",
+                        "chapterId": "spc-ss4-arabic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss4-english": {
+                "id": "spc-ss4-english",
+                "levelId": "spc-ss4",
+                "name": "english",
+                "ar_title": "اللغة الانكليزية",
+                "chapters": {
+                  "spc-ss4-english-": {
+                    "id": "spc-ss4-english-",
+                    "subjectId": "spc-ss4-english",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss4-english--": {
+                        "id": "spc-ss4-english--",
+                        "chapterId": "spc-ss4-english-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss4-math": {
+                "id": "spc-ss4-math",
+                "levelId": "spc-ss4",
+                "name": "math",
+                "ar_title": "Mathematics",
+                "chapters": {
+                  "spc-ss4-math-": {
+                    "id": "spc-ss4-math-",
+                    "subjectId": "spc-ss4-math",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss4-math--": {
+                        "id": "spc-ss4-math--",
+                        "chapterId": "spc-ss4-math-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss4-biology": {
+                "id": "spc-ss4-biology",
+                "levelId": "spc-ss4",
+                "name": "biology",
+                "ar_title": "Biology",
+                "chapters": {
+                  "spc-ss4-biology-": {
+                    "id": "spc-ss4-biology-",
+                    "subjectId": "spc-ss4-biology",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss4-biology--": {
+                        "id": "spc-ss4-biology--",
+                        "chapterId": "spc-ss4-biology-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss4-chemistry": {
+                "id": "spc-ss4-chemistry",
+                "levelId": "spc-ss4",
+                "name": "chemistry",
+                "ar_title": "Chemistry",
+                "chapters": {
+                  "spc-ss4-chemistry-": {
+                    "id": "spc-ss4-chemistry-",
+                    "subjectId": "spc-ss4-chemistry",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss4-chemistry--": {
+                        "id": "spc-ss4-chemistry--",
+                        "chapterId": "spc-ss4-chemistry-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss4-physics": {
+                "id": "spc-ss4-physics",
+                "levelId": "spc-ss4",
+                "name": "physics",
+                "ar_title": "Physics",
+                "chapters": {
+                  "spc-ss4-physics-": {
+                    "id": "spc-ss4-physics-",
+                    "subjectId": "spc-ss4-physics",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss4-physics--": {
+                        "id": "spc-ss4-physics--",
+                        "chapterId": "spc-ss4-physics-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss4-computer": {
+                "id": "spc-ss4-computer",
+                "levelId": "spc-ss4",
+                "name": "computer",
+                "ar_title": "الحاسوب",
+                "chapters": {
+                  "spc-ss4-computer-": {
+                    "id": "spc-ss4-computer-",
+                    "subjectId": "spc-ss4-computer",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss4-computer--": {
+                        "id": "spc-ss4-computer--",
+                        "chapterId": "spc-ss4-computer-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss4-french": {
+                "id": "spc-ss4-french",
+                "levelId": "spc-ss4",
+                "name": "french",
+                "ar_title": "اللغة الفرنسية",
+                "chapters": {
+                  "spc-ss4-french-": {
+                    "id": "spc-ss4-french-",
+                    "subjectId": "spc-ss4-french",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss4-french--": {
+                        "id": "spc-ss4-french--",
+                        "chapterId": "spc-ss4-french-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss4-kurdish": {
+                "id": "spc-ss4-kurdish",
+                "levelId": "spc-ss4",
+                "name": "kurdish",
+                "ar_title": "اللغة الكردية",
+                "chapters": {
+                  "spc-ss4-kurdish-": {
+                    "id": "spc-ss4-kurdish-",
+                    "subjectId": "spc-ss4-kurdish",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss4-kurdish--": {
+                        "id": "spc-ss4-kurdish--",
+                        "chapterId": "spc-ss4-kurdish-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "spc-ss5": {
+            "id": "spc-ss5",
+            "curriculumId": "spc",
+            "name": "Scientific Secondary fifth",
+            "ar_title": "Scientific Secondary fifth",
+            "subjects": {
+              "spc-ss5-islamic": {
+                "id": "spc-ss5-islamic",
+                "levelId": "spc-ss5",
+                "name": "islamic",
+                "ar_title": "التربية الاسلامية",
+                "chapters": {
+                  "spc-ss5-islamic-": {
+                    "id": "spc-ss5-islamic-",
+                    "subjectId": "spc-ss5-islamic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss5-islamic--": {
+                        "id": "spc-ss5-islamic--",
+                        "chapterId": "spc-ss5-islamic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss5-arabic": {
+                "id": "spc-ss5-arabic",
+                "levelId": "spc-ss5",
+                "name": "arabic",
+                "ar_title": "اللغة العربية",
+                "chapters": {
+                  "spc-ss5-arabic-": {
+                    "id": "spc-ss5-arabic-",
+                    "subjectId": "spc-ss5-arabic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss5-arabic--": {
+                        "id": "spc-ss5-arabic--",
+                        "chapterId": "spc-ss5-arabic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss5-english": {
+                "id": "spc-ss5-english",
+                "levelId": "spc-ss5",
+                "name": "english",
+                "ar_title": "اللغة الانكليزية",
+                "chapters": {
+                  "spc-ss5-english-": {
+                    "id": "spc-ss5-english-",
+                    "subjectId": "spc-ss5-english",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss5-english--": {
+                        "id": "spc-ss5-english--",
+                        "chapterId": "spc-ss5-english-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss5-math": {
+                "id": "spc-ss5-math",
+                "levelId": "spc-ss5",
+                "name": "math",
+                "ar_title": "Mathematics",
+                "chapters": {
+                  "spc-ss5-math-": {
+                    "id": "spc-ss5-math-",
+                    "subjectId": "spc-ss5-math",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss5-math--": {
+                        "id": "spc-ss5-math--",
+                        "chapterId": "spc-ss5-math-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss5-biology": {
+                "id": "spc-ss5-biology",
+                "levelId": "spc-ss5",
+                "name": "biology",
+                "ar_title": "Biology",
+                "chapters": {
+                  "spc-ss5-biology-": {
+                    "id": "spc-ss5-biology-",
+                    "subjectId": "spc-ss5-biology",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss5-biology--": {
+                        "id": "spc-ss5-biology--",
+                        "chapterId": "spc-ss5-biology-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss5-chemistry": {
+                "id": "spc-ss5-chemistry",
+                "levelId": "spc-ss5",
+                "name": "chemistry",
+                "ar_title": "Chemistry",
+                "chapters": {
+                  "spc-ss5-chemistry-": {
+                    "id": "spc-ss5-chemistry-",
+                    "subjectId": "spc-ss5-chemistry",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss5-chemistry--": {
+                        "id": "spc-ss5-chemistry--",
+                        "chapterId": "spc-ss5-chemistry-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss5-physics": {
+                "id": "spc-ss5-physics",
+                "levelId": "spc-ss5",
+                "name": "physics",
+                "ar_title": "Physics",
+                "chapters": {
+                  "spc-ss5-physics-": {
+                    "id": "spc-ss5-physics-",
+                    "subjectId": "spc-ss5-physics",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss5-physics--": {
+                        "id": "spc-ss5-physics--",
+                        "chapterId": "spc-ss5-physics-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss5-geology": {
+                "id": "spc-ss5-geology",
+                "levelId": "spc-ss5",
+                "name": "geology",
+                "ar_title": "علم الارض",
+                "chapters": {
+                  "spc-ss5-geology-": {
+                    "id": "spc-ss5-geology-",
+                    "subjectId": "spc-ss5-geology",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss5-geology--": {
+                        "id": "spc-ss5-geology--",
+                        "chapterId": "spc-ss5-geology-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss5-computer": {
+                "id": "spc-ss5-computer",
+                "levelId": "spc-ss5",
+                "name": "computer",
+                "ar_title": "الحاسوب",
+                "chapters": {
+                  "spc-ss5-computer-": {
+                    "id": "spc-ss5-computer-",
+                    "subjectId": "spc-ss5-computer",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss5-computer--": {
+                        "id": "spc-ss5-computer--",
+                        "chapterId": "spc-ss5-computer-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss5-french": {
+                "id": "spc-ss5-french",
+                "levelId": "spc-ss5",
+                "name": "french",
+                "ar_title": "اللغة الفرنسية",
+                "chapters": {
+                  "spc-ss5-french-": {
+                    "id": "spc-ss5-french-",
+                    "subjectId": "spc-ss5-french",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss5-french--": {
+                        "id": "spc-ss5-french--",
+                        "chapterId": "spc-ss5-french-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss5-kurdish": {
+                "id": "spc-ss5-kurdish",
+                "levelId": "spc-ss5",
+                "name": "kurdish",
+                "ar_title": "اللغة الكردية",
+                "chapters": {
+                  "spc-ss5-kurdish-": {
+                    "id": "spc-ss5-kurdish-",
+                    "subjectId": "spc-ss5-kurdish",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss5-kurdish--": {
+                        "id": "spc-ss5-kurdish--",
+                        "chapterId": "spc-ss5-kurdish-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "spc-ss6": {
+            "id": "spc-ss6",
+            "curriculumId": "spc",
+            "name": "Scientific Secondary sixth",
+            "ar_title": "Scientific Secondary sixth",
+            "subjects": {
+              "spc-ss6-islamic": {
+                "id": "spc-ss6-islamic",
+                "levelId": "spc-ss6",
+                "name": "islamic",
+                "ar_title": "التربية الاسلامية",
+                "chapters": {
+                  "spc-ss6-islamic-": {
+                    "id": "spc-ss6-islamic-",
+                    "subjectId": "spc-ss6-islamic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss6-islamic--": {
+                        "id": "spc-ss6-islamic--",
+                        "chapterId": "spc-ss6-islamic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss6-arabic": {
+                "id": "spc-ss6-arabic",
+                "levelId": "spc-ss6",
+                "name": "arabic",
+                "ar_title": "اللغة العربية",
+                "chapters": {
+                  "spc-ss6-arabic-": {
+                    "id": "spc-ss6-arabic-",
+                    "subjectId": "spc-ss6-arabic",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss6-arabic--": {
+                        "id": "spc-ss6-arabic--",
+                        "chapterId": "spc-ss6-arabic-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss6-english": {
+                "id": "spc-ss6-english",
+                "levelId": "spc-ss6",
+                "name": "english",
+                "ar_title": "اللغة الانكليزية",
+                "chapters": {
+                  "spc-ss6-english-": {
+                    "id": "spc-ss6-english-",
+                    "subjectId": "spc-ss6-english",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss6-english--": {
+                        "id": "spc-ss6-english--",
+                        "chapterId": "spc-ss6-english-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss6-math": {
+                "id": "spc-ss6-math",
+                "levelId": "spc-ss6",
+                "name": "math",
+                "ar_title": "Mathematics",
+                "chapters": {
+                  "spc-ss6-math-": {
+                    "id": "spc-ss6-math-",
+                    "subjectId": "spc-ss6-math",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss6-math--": {
+                        "id": "spc-ss6-math--",
+                        "chapterId": "spc-ss6-math-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss6-biology": {
+                "id": "spc-ss6-biology",
+                "levelId": "spc-ss6",
+                "name": "biology",
+                "ar_title": "Biology",
+                "chapters": {
+                  "spc-ss6-biology-": {
+                    "id": "spc-ss6-biology-",
+                    "subjectId": "spc-ss6-biology",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss6-biology--": {
+                        "id": "spc-ss6-biology--",
+                        "chapterId": "spc-ss6-biology-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss6-chemistry": {
+                "id": "spc-ss6-chemistry",
+                "levelId": "spc-ss6",
+                "name": "chemistry",
+                "ar_title": "Chemistry",
+                "chapters": {
+                  "spc-ss6-chemistry-": {
+                    "id": "spc-ss6-chemistry-",
+                    "subjectId": "spc-ss6-chemistry",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss6-chemistry--": {
+                        "id": "spc-ss6-chemistry--",
+                        "chapterId": "spc-ss6-chemistry-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss6-physics": {
+                "id": "spc-ss6-physics",
+                "levelId": "spc-ss6",
+                "name": "physics",
+                "ar_title": "Physics",
+                "chapters": {
+                  "spc-ss6-physics-": {
+                    "id": "spc-ss6-physics-",
+                    "subjectId": "spc-ss6-physics",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss6-physics--": {
+                        "id": "spc-ss6-physics--",
+                        "chapterId": "spc-ss6-physics-",
+                        "name": "",
+                        "ar_title": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "spc-ss6-french": {
+                "id": "spc-ss6-french",
+                "levelId": "spc-ss6",
+                "name": "french",
+                "ar_title": "اللغة الفرنسية",
+                "chapters": {
+                  "spc-ss6-french-": {
+                    "id": "spc-ss6-french-",
+                    "subjectId": "spc-ss6-french",
+                    "name": "",
+                    "ar_title": "",
+                    "lessons": {
+                      "spc-ss6-french--": {
+                        "id": "spc-ss6-french--",
+                        "chapterId": "spc-ss6-french-",
+                        "name": "",
+                        "ar_title": ""
                       }
                     }
                   }
