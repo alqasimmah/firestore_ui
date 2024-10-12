@@ -1,47 +1,31 @@
+// server.js
 const express = require('express');
-const bodyParser = require('body-parser');
 const cors = require('cors');
 const path = require('path');
 
 const app = express();
 
-// Import routes for curriculums, levels, subjects, and questions
+// Import routes
 const dataRoutes = require('./routes/dataRoutes');
+const errorHandler = require('./middleware/errorHandler');
 
 // Middleware
-// Enable CORS with more specific settings
 app.use(cors({
-  origin: 'http://localhost:3000', // Allow requests only from this origin
-  methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow these methods
-  allowedHeaders: ['Content-Type', 'Authorization'], // Allow these headers
+  origin: 'http://localhost:3000',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
 }));
 
-// Middleware to set Content-Security-Policy (CSP) headers
-app.use((req, res, next) => {
-  res.setHeader(
-    'Content-Security-Policy',
-    "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; connect-src 'self' http://localhost:3000"
-  );
-  next();
-});
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
-// Middleware for parsing incoming requests with JSON payloads
-app.use(bodyParser.json());
-
-// Middleware for parsing URL-encoded data
-app.use(bodyParser.urlencoded({ extended: true }));
-
-// Serve static files from the public folder (for the frontend)
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Use the API routes for curriculums, levels, and questions
+// Use the API routes
 app.use('/api', dataRoutes);
 
-// Error handling middleware
-app.use((err, req, res, next) => {
-  console.error(err.stack);
-  res.status(500).send('Something went wrong!');
-});
+// Use the error-handling middleware
+app.use(errorHandler);
 
 // Start the server
 const PORT = process.env.PORT || 3000;

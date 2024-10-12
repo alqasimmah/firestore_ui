@@ -1,18 +1,17 @@
+// routes/dataRoutes.js
 const express = require('express');
 const router = express.Router();
 const dataController = require('../controllers/dataController');
 
-// Existing routes for curriculums, levels, subjects, chapters, and lessons
+// RESTful routes
 router.get('/curriculums', dataController.getCurriculums);
-router.get('/levels/:curriculumId', dataController.getLevelsByCurriculum);
-router.get('/subjects/:curriculumId/:levelId', dataController.getSubjectsByLevel);
-router.get('/chapters/:curriculumId/:levelId/:subjectId', dataController.getChaptersBySubject);
-router.get('/lessons/:curriculumId/:levelId/:subjectId/:chapterId', dataController.getLessonsByChapter);
+router.get('/curriculums/:curriculumId/levels', dataController.getLevelsByCurriculum);
+router.get('/curriculums/:curriculumId/levels/:levelId/subjects', dataController.getSubjectsByLevel);
+router.get('/curriculums/:curriculumId/levels/:levelId/subjects/:subjectId/chapters', dataController.getChaptersBySubject);
+router.get('/curriculums/:curriculumId/levels/:levelId/subjects/:subjectId/chapters/:chapterId/lessons', dataController.getLessonsByChapter);
 
-// New route for fetching all questions
+// Questions routes
 router.get('/questions', dataController.getQuestions);
-
-// Route for creating a new question
 router.post('/questions', dataController.createQuestion);
 
 module.exports = router;

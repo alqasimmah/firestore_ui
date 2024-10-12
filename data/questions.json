@@ -21,311 +21,1019 @@
                   "gc-i1-islamic-00": {
                     "id": "gc-i1-islamic-00",
                     "subjectId": "gc-i1-islamic",
-                    "name": "",
+                    "name": "ch00",
                     "ar_title": "احكام التلاوة",
                     "lessons": {
                       "gc-i1-islamic-00-00": {
                         "id": "gc-i1-islamic-00-00",
                         "chapterId": "gc-i1-islamic-00",
-                        "name": "",
-                        "ar_title": ""
+                        "name": "less00",
+                        "lessonArTitle1": "التجويد",
+                        "lessonArTitle2": "التجويد",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   },
                   "gc-i1-islamic-01": {
                     "id": "gc-i1-islamic-01",
                     "subjectId": "gc-i1-islamic",
-                    "name": "",
-                    "ar_title": "الوحدة الاولى",
+                    "name": "ch01",
+                    "ar_title": "احكام التلاوة",
                     "lessons": {
+                      "gc-i1-islamic-00-01": {
+                        "id": "gc-i1-islamic-00-01",
+                        "chapterId": "gc-i1-islamic-01",
+                        "name": "less00",
+                        "lessonArTitle1": "التجويد",
+                        "lessonArTitle2": "المد",
+                        "topic01": "",
+                        "topic02": ""
+                      },
                       "gc-i1-islamic-01-01": {
                         "id": "gc-i1-islamic-01-01",
                         "chapterId": "gc-i1-islamic-01",
-                        "name": "الدرس الاول",
-                        "ar_title": "سورة الفجر",
-                        "questions": {
-                          "question_1": {
-                            "id": "question_1",
-                            "type": "part",
-                            "text": "<p>ما معنى الفجر؟ </p>",
-                            "options": [],
-                            "correctAnswer": "طلوع النهار",
-                            "createdAt": "2024-10-09T09:45:50.873Z",
-                            "updatedAt": "2024-10-09T09:45:50.873Z"
-                          }
-                        }
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "سورة الفجر",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-01-02": {
                         "id": "gc-i1-islamic-01-02",
                         "chapterId": "gc-i1-islamic-01",
-                        "name": "الدرس الثاني",
-                        "ar_title": "اهمية القرآن الكريم في حياة الانسان"
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "اهمية القرآن الكريم في حياة الانسان",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-01-03": {
                         "id": "gc-i1-islamic-01-03",
                         "chapterId": "gc-i1-islamic-01",
-                        "name": "الدرس الثالث",
-                        "ar_title": "الحديث الشريف (من سن سنة حسنة )"
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "الحديث الشريف (من سن سنة حسنة )",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-01-04": {
                         "id": "gc-i1-islamic-01-04",
                         "chapterId": "gc-i1-islamic-01",
-                        "name": "الدرس الرابع",
-                        "ar_title": "ثمار العبادات"
+                        "name": "less04",
+                        "lessonArTitle1": "الدرس الرابع",
+                        "lessonArTitle2": "ثمار العبادات",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-01-05": {
                         "id": "gc-i1-islamic-01-05",
                         "chapterId": "gc-i1-islamic-01",
-                        "name": "الدرس الخامس",
-                        "ar_title": "من السيرة النبوية الشريفة",
-                        "questions": {
-                          "question_1": {
-                            "id": "question_1",
-                            "type": "definition",
-                            "text": "<p>تحدث عن السيرة النبوية الشريفة</p>",
-                            "options": [],
-                            "correctAnswer": "سيرة شريفة عطرة",
-                            "createdAt": "2024-10-09T09:23:36.030Z",
-                            "updatedAt": "2024-10-09T09:23:36.030Z"
-                          }
-                        }
+                        "name": "less05",
+                        "lessonArTitle1": "الدرس الخامس",
+                        "lessonArTitle2": "من السيرة النبوية الشريفة",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-01-06": {
                         "id": "gc-i1-islamic-01-06",
                         "chapterId": "gc-i1-islamic-01",
-                        "name": "الدرس السادس",
-                        "ar_title": "(اداء الامانة)"
+                        "name": "less06",
+                        "lessonArTitle1": "الدرس السادس",
+                        "lessonArTitle2": "(اداء الامانة)",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   },
                   "gc-i1-islamic-02": {
                     "id": "gc-i1-islamic-02",
                     "subjectId": "gc-i1-islamic",
-                    "name": "",
-                    "ar_title": "الوحدة الثانية",
+                    "name": "ch02",
+                    "ar_title": "احكام التلاوة",
                     "lessons": {
+                      "gc-i1-islamic-00-02": {
+                        "id": "gc-i1-islamic-00-02",
+                        "chapterId": "gc-i1-islamic-02",
+                        "name": "less00",
+                        "lessonArTitle1": "التجويد",
+                        "lessonArTitle2": "القلقلة",
+                        "topic01": "",
+                        "topic02": ""
+                      },
                       "gc-i1-islamic-02-01": {
                         "id": "gc-i1-islamic-02-01",
                         "chapterId": "gc-i1-islamic-02",
-                        "name": "الدرس الاول",
-                        "ar_title": "سورة البروج"
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "سورة البروج",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-02-02": {
                         "id": "gc-i1-islamic-02-02",
                         "chapterId": "gc-i1-islamic-02",
-                        "name": "الدرس الثاني",
-                        "ar_title": "القرآن الكريم"
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القرآن الكريم",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-02-03": {
                         "id": "gc-i1-islamic-02-03",
                         "chapterId": "gc-i1-islamic-02",
-                        "name": "الدرس الثالث",
-                        "ar_title": "الحديث الشريف (الصدق والكذب)"
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "الحديث الشريف (الصدق والكذب)",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-02-04": {
                         "id": "gc-i1-islamic-02-04",
                         "chapterId": "gc-i1-islamic-02",
-                        "name": "الدرس الرابع",
-                        "ar_title": "الطهارة"
+                        "name": "less04",
+                        "lessonArTitle1": "الدرس الرابع",
+                        "lessonArTitle2": "الطهارة",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-02-05": {
                         "id": "gc-i1-islamic-02-05",
                         "chapterId": "gc-i1-islamic-02",
-                        "name": "الدرس الخامس",
-                        "ar_title": "من السيرة النبوية الشريفةر(هجرة النبي)"
+                        "name": "less05",
+                        "lessonArTitle1": "الدرس الخامس",
+                        "lessonArTitle2": "من السيرة النبوية الشريفةر(هجرة النبي)",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-02-06": {
                         "id": "gc-i1-islamic-02-06",
                         "chapterId": "gc-i1-islamic-02",
-                        "name": "الدرس السادس",
-                        "ar_title": "التهذ يب (النظافة)"
+                        "name": "less06",
+                        "lessonArTitle1": "الدرس السادس",
+                        "lessonArTitle2": "التهذ يب (النظافة)",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   },
                   "gc-i1-islamic-03": {
                     "id": "gc-i1-islamic-03",
                     "subjectId": "gc-i1-islamic",
-                    "name": "",
-                    "ar_title": "الوحدة الثالثة",
+                    "name": "ch03",
+                    "ar_title": "احكام التلاوة",
                     "lessons": {
+                      "gc-i1-islamic-00-03": {
+                        "id": "gc-i1-islamic-00-03",
+                        "chapterId": "gc-i1-islamic-03",
+                        "name": "less00",
+                        "lessonArTitle1": "التجويد",
+                        "lessonArTitle2": "اداب تلاوة القران الكريم",
+                        "topic01": "",
+                        "topic02": ""
+                      },
                       "gc-i1-islamic-03-01": {
                         "id": "gc-i1-islamic-03-01",
                         "chapterId": "gc-i1-islamic-03",
-                        "name": "الدرس الاول",
-                        "ar_title": "سورة الانشقاق",
-                        "questions": {
-                          "question_1": {
-                            "id": "question_1",
-                            "subjectId": "gc-i1-islamic",
-                            "chapterId": "gc-i1-islamic-03",
-                            "lessonId": "gc-i1-islamic-03-01",
-                            "type": "part",
-                            "text": "<p>ما المقصود بالانشقاق؟\t\t</p>",
-                            "options": [],
-                            "correctAnswer": "انشقاق السماء",
-                            "createdAt": "2024-10-09T09:51:31.861Z",
-                            "updatedAt": "2024-10-09T09:51:31.862Z"
-                          }
-                        }
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "سورة الانشقاق",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-03-02": {
                         "id": "gc-i1-islamic-03-02",
                         "chapterId": "gc-i1-islamic-03",
-                        "name": "الدرس الثاني",
-                        "ar_title": "القرآن الكريم نزوله وموضوعاته"
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القرآن الكريم نزوله وموضوعاته",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-03-03": {
                         "id": "gc-i1-islamic-03-03",
                         "chapterId": "gc-i1-islamic-03",
-                        "name": "الدرس الثالث",
-                        "ar_title": "الحديث الشريف (النهي عن الحسد)"
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "الحديث الشريف (النهي عن الحسد)",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-03-04": {
                         "id": "gc-i1-islamic-03-04",
                         "chapterId": "gc-i1-islamic-03",
-                        "name": "الدرس الرابع",
-                        "ar_title": "الوضوء",
-                        "questions": {
-                          "question_1": {
-                            "id": "question_1",
-                            "subjectId": "gc-i1-islamic",
-                            "chapterId": "gc-i1-islamic-03",
-                            "lessonId": "gc-i1-islamic-03-04",
-                            "type": "mcq",
-                            "text": "<p>ما احكام الوضوء؟</p>",
-                            "options": [
-                              "غسل الوجه",
-                              "اليدين",
-                              "الشعر",
-                              "القدمين"
-                            ],
-                            "correctAnswer": "الكل",
-                            "createdAt": "2024-10-09T09:54:00.186Z",
-                            "updatedAt": "2024-10-09T09:54:00.186Z"
-                          }
-                        }
+                        "name": "less04",
+                        "lessonArTitle1": "الدرس الرابع",
+                        "lessonArTitle2": "الوضوء",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-03-05": {
                         "id": "gc-i1-islamic-03-05",
                         "chapterId": "gc-i1-islamic-03",
-                        "name": "الدرس الخامس",
-                        "ar_title": "من سير الصحابة ابو بكر الصديق (رض)"
+                        "name": "less05",
+                        "lessonArTitle1": "الدرس الخامس",
+                        "lessonArTitle2": "من سير الصحابة ابو بكر الصديق (رض)",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-03-06": {
                         "id": "gc-i1-islamic-03-06",
                         "chapterId": "gc-i1-islamic-03",
-                        "name": "الدرس السادس",
-                        "ar_title": "السخرية واللمز والتنابز بالألقاب"
+                        "name": "less06",
+                        "lessonArTitle1": "الدرس السادس",
+                        "lessonArTitle2": "الدرس السادس السخرية واللمز والتنابز بالألقاب",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   },
                   "gc-i1-islamic-04": {
                     "id": "gc-i1-islamic-04",
                     "subjectId": "gc-i1-islamic",
-                    "name": "",
+                    "name": "ch04",
                     "ar_title": "الوحدة الرابعة",
                     "lessons": {
                       "gc-i1-islamic-04-01": {
                         "id": "gc-i1-islamic-04-01",
                         "chapterId": "gc-i1-islamic-04",
-                        "name": "الدرس الاول",
-                        "ar_title": "سورة المطففين"
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "سورة المطففين",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-04-02": {
                         "id": "gc-i1-islamic-04-02",
                         "chapterId": "gc-i1-islamic-04",
-                        "name": "الدرس الثاني",
-                        "ar_title": "القصص القرآني"
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القصص القرآني",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-04-03": {
                         "id": "gc-i1-islamic-04-03",
                         "chapterId": "gc-i1-islamic-04",
-                        "name": "الدرس الثالث",
-                        "ar_title": "الحديث الشريف (أحب الاعمال الى الله)"
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "الحديث الشريف (أحب الاعمال الى الله)",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-04-04": {
                         "id": "gc-i1-islamic-04-04",
                         "chapterId": "gc-i1-islamic-04",
-                        "name": "الدرس الرابع",
-                        "ar_title": "فريضة الصلاة"
+                        "name": "less04",
+                        "lessonArTitle1": "الدرس الرابع",
+                        "lessonArTitle2": "فريضة الصلاة",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-04-05": {
                         "id": "gc-i1-islamic-04-05",
                         "chapterId": "gc-i1-islamic-04",
-                        "name": "الدرس الخامس",
-                        "ar_title": "الامام الحسن بن علي بن ابي طالب (عليهما السلام)"
+                        "name": "less05",
+                        "lessonArTitle1": "الدرس الخامس",
+                        "lessonArTitle2": "الامام الحسن بن علي بن ابي طالب (عليهما السلام)",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-04-06": {
                         "id": "gc-i1-islamic-04-06",
                         "chapterId": "gc-i1-islamic-04",
-                        "name": "الدرس السادس",
-                        "ar_title": "التعاون"
+                        "name": "less06",
+                        "lessonArTitle1": "الدرس السادس",
+                        "lessonArTitle2": "التعاون",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   },
                   "gc-i1-islamic-05": {
                     "id": "gc-i1-islamic-05",
                     "subjectId": "gc-i1-islamic",
-                    "name": "",
+                    "name": "ch05",
                     "ar_title": "الوحدة الخامسة",
                     "lessons": {
                       "gc-i1-islamic-05-01": {
                         "id": "gc-i1-islamic-05-01",
                         "chapterId": "gc-i1-islamic-05",
-                        "name": "الدرس الاول",
-                        "ar_title": "سورة الانفطار"
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "سورة الانفطار",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-05-02": {
                         "id": "gc-i1-islamic-05-02",
                         "chapterId": "gc-i1-islamic-05",
-                        "name": "الدرس الثاني",
-                        "ar_title": "اسماعيل (عليه السلام)"
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "اسماعيل (عليه السلام)",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-05-03": {
                         "id": "gc-i1-islamic-05-03",
                         "chapterId": "gc-i1-islamic-05",
-                        "name": "الدرس الثالث",
-                        "ar_title": "الحديث الشريف (تقوى الله وحسن معاملة الناس)"
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "الحديث الشريف (تقوى الله وحسن معاملة الناس)",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-05-04": {
                         "id": "gc-i1-islamic-05-04",
                         "chapterId": "gc-i1-islamic-05",
-                        "name": "الدرس الرابع",
-                        "ar_title": "اهمية الصلاة"
+                        "name": "less04",
+                        "lessonArTitle1": "الدرس الرابع",
+                        "lessonArTitle2": "اهمية الصلاة",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-05-05": {
                         "id": "gc-i1-islamic-05-05",
                         "chapterId": "gc-i1-islamic-05",
-                        "name": "الدرس الخامس",
-                        "ar_title": "الامام زين العابدين (عليه السلام)"
+                        "name": "less05",
+                        "lessonArTitle1": "الدرس الخامس",
+                        "lessonArTitle2": "الامام زين العابدين (عليه السلام)",
+                        "topic01": "",
+                        "topic02": ""
                       },
                       "gc-i1-islamic-05-06": {
                         "id": "gc-i1-islamic-05-06",
                         "chapterId": "gc-i1-islamic-05",
-                        "name": "الدرس السادس",
-                        "ar_title": "السرقة"
+                        "name": "less06",
+                        "lessonArTitle1": "الدرس السادس",
+                        "lessonArTitle2": "السرقة",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
                 }
               },
-              "gc-i1-arabic": {
-                "id": "gc-i1-arabic",
+              "gc-i1-arabic-p01": {
+                "id": "gc-i1-arabic-p01",
                 "levelId": "gc-i1",
-                "name": "arabic",
-                "ar_title": "اللغة العربية",
+                "name": "arabicP01",
+                "ar_title": "اللغة العربية ج 1",
                 "chapters": {
-                  "gc-i1-arabic-": {
-                    "id": "gc-i1-arabic-",
-                    "subjectId": "gc-i1-arabic",
-                    "name": "",
-                    "ar_title": "",
+                  "gc-i1-arabic-p01-01": {
+                    "id": "gc-i1-arabic-p01-01",
+                    "subjectId": "gc-i1-arabic-p01",
+                    "name": "ch01",
+                    "ar_title": "الوحدة الأولى (من نعم الله تعالى)",
                     "lessons": {
-                      "gc-i1-arabic--": {
-                        "id": "gc-i1-arabic--",
-                        "chapterId": "gc-i1-arabic-",
-                        "name": "",
-                        "ar_title": ""
+                      "gc-i1-arabic-p01-01-01": {
+                        "id": "gc-i1-arabic-p01-01-01",
+                        "chapterId": "gc-i1-arabic-p01-01",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p01-01-02": {
+                        "id": "gc-i1-arabic-p01-01-02",
+                        "chapterId": "gc-i1-arabic-p01-01",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "أقسام الكلام",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p01-01-03": {
+                        "id": "gc-i1-arabic-p01-01-03",
+                        "chapterId": "gc-i1-arabic-p01-01",
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "الاملاء والخط",
+                        "topic01": "التنوين",
+                        "topic02": ""
+                      }
+                    }
+                  },
+                  "gc-i1-arabic-p01-02": {
+                    "id": "gc-i1-arabic-p01-02",
+                    "subjectId": "gc-i1-arabic-p01",
+                    "name": "ch02",
+                    "ar_title": "الوحدة الثانية (طلب العلم)",
+                    "lessons": {
+                      "gc-i1-arabic-p01-02-01": {
+                        "id": "gc-i1-arabic-p01-02-01",
+                        "chapterId": "gc-i1-arabic-p01-02",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p01-02-02": {
+                        "id": "gc-i1-arabic-p01-02-02",
+                        "chapterId": "gc-i1-arabic-p01-02",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "المعرب والمبني",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p01-02-03": {
+                        "id": "gc-i1-arabic-p01-02-03",
+                        "chapterId": "gc-i1-arabic-p01-02",
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "التعبير",
+                        "topic01": "",
+                        "topic02": ""
+                      }
+                    }
+                  },
+                  "gc-i1-arabic-p01-03": {
+                    "id": "gc-i1-arabic-p01-03",
+                    "subjectId": "gc-i1-arabic-p01",
+                    "name": "ch03",
+                    "ar_title": "الوحدة الثالثة (من عظمائنا)",
+                    "lessons": {
+                      "gc-i1-arabic-p01-03-01": {
+                        "id": "gc-i1-arabic-p01-03-01",
+                        "chapterId": "gc-i1-arabic-p01-03",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": "",
+                        "questions": {
+                          "question_1": {
+                            "id": "question_1",
+                            "curriculumId": "gc",
+                            "levelId": "gc-i1",
+                            "subjectId": "gc-i1-arabic-p01",
+                            "chapterId": "gc-i1-arabic-p01-03",
+                            "lessonId": "gc-i1-arabic-p01-03-01",
+                            "lessonArTitle1": "الدرس الاول",
+                            "lessonArTitle2": "المطالعة والنصوص",
+                            "topic01": "",
+                            "topic02": "",
+                            "type": "definition",
+                            "text": "<p>اختبار اختبار اختبار</p>",
+                            "correctAnswer": "اختبار اختبار اختبار اختبار اختبار اختبار",
+                            "createdAt": "2024-10-12T18:38:45.593Z",
+                            "updatedAt": "2024-10-12T18:38:45.593Z"
+                          }
+                        }
+                      },
+                      "gc-i1-arabic-p01-03-02": {
+                        "id": "gc-i1-arabic-p01-03-02",
+                        "chapterId": "gc-i1-arabic-p01-03",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "العَلَم",
+                        "topic02": ""
+                      }
+                    }
+                  },
+                  "gc-i1-arabic-p01-04": {
+                    "id": "gc-i1-arabic-p01-04",
+                    "subjectId": "gc-i1-arabic-p01",
+                    "name": "ch04",
+                    "ar_title": "الوحدة الرابعة (نعم للقراءة)",
+                    "lessons": {
+                      "gc-i1-arabic-p01-04-01": {
+                        "id": "gc-i1-arabic-p01-04-01",
+                        "chapterId": "gc-i1-arabic-p01-04",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p01-04-02": {
+                        "id": "gc-i1-arabic-p01-04-02",
+                        "chapterId": "gc-i1-arabic-p01-04",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "المعرّف بـ (ال)",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p01-04-03": {
+                        "id": "gc-i1-arabic-p01-04-03",
+                        "chapterId": "gc-i1-arabic-p01-04",
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "الاملاء والخط",
+                        "topic01": "الحروف الشمسية والقمرية",
+                        "topic02": "",
+                        "questions": {
+                          "question_1": {
+                            "id": "question_1",
+                            "curriculumId": "gc",
+                            "levelId": "gc-i1",
+                            "subjectId": "gc-i1-arabic-p01",
+                            "chapterId": "gc-i1-arabic-p01-04",
+                            "lessonId": "gc-i1-arabic-p01-04-03",
+                            "lessonArTitle1": "الدرس الثالث",
+                            "lessonArTitle2": "الاملاء والخط",
+                            "topic01": "الحروف الشمسية والقمرية",
+                            "topic02": "",
+                            "type": "part",
+                            "text": "<p>تجربة اولى</p>",
+                            "correctAnswer": "تجربة اولى",
+                            "createdAt": "2024-10-12T13:44:12.514Z",
+                            "updatedAt": "2024-10-12T13:44:12.514Z"
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "gc-i1-arabic-p01-05": {
+                    "id": "gc-i1-arabic-p01-05",
+                    "subjectId": "gc-i1-arabic-p01",
+                    "name": "ch05",
+                    "ar_title": "الوحدة الخامسة (وإنك لعلى خلق عظيم)",
+                    "lessons": {
+                      "gc-i1-arabic-p01-05-01": {
+                        "id": "gc-i1-arabic-p01-05-01",
+                        "chapterId": "gc-i1-arabic-p01-05",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p01-05-02": {
+                        "id": "gc-i1-arabic-p01-05-02",
+                        "chapterId": "gc-i1-arabic-p01-05",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "الضمائر",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p01-05-03": {
+                        "id": "gc-i1-arabic-p01-05-03",
+                        "chapterId": "gc-i1-arabic-p01-05",
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "التعبير",
+                        "topic01": "",
+                        "topic02": ""
+                      }
+                    }
+                  },
+                  "gc-i1-arabic-p01-06": {
+                    "id": "gc-i1-arabic-p01-06",
+                    "subjectId": "gc-i1-arabic-p01",
+                    "name": "ch06",
+                    "ar_title": "الوحدة السادسة (المظاهر الخادعة)",
+                    "lessons": {
+                      "gc-i1-arabic-p01-06-01": {
+                        "id": "gc-i1-arabic-p01-06-01",
+                        "chapterId": "gc-i1-arabic-p01-06",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p01-06-02": {
+                        "id": "gc-i1-arabic-p01-06-02",
+                        "chapterId": "gc-i1-arabic-p01-06",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "أسماء الإشارة",
+                        "topic02": ""
+                      }
+                    }
+                  },
+                  "gc-i1-arabic-p01-07": {
+                    "id": "gc-i1-arabic-p01-07",
+                    "subjectId": "gc-i1-arabic-p01",
+                    "name": "ch07",
+                    "ar_title": "الوحدة السابعة (التسامح والتعايش السلمي)",
+                    "lessons": {
+                      "gc-i1-arabic-p01-07-01": {
+                        "id": "gc-i1-arabic-p01-07-01",
+                        "chapterId": "gc-i1-arabic-p01-07",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p01-07-02": {
+                        "id": "gc-i1-arabic-p01-07-02",
+                        "chapterId": "gc-i1-arabic-p01-07",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "الأسماء الموصولة",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p01-07-03": {
+                        "id": "gc-i1-arabic-p01-07-03",
+                        "chapterId": "gc-i1-arabic-p01-07",
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "التعبير",
+                        "topic01": "",
+                        "topic02": ""
+                      }
+                    }
+                  },
+                  "gc-i1-arabic-p01-08": {
+                    "id": "gc-i1-arabic-p01-08",
+                    "subjectId": "gc-i1-arabic-p01",
+                    "name": "ch08",
+                    "ar_title": "الوحدة الثامنة (وطننا الحبيب)",
+                    "lessons": {
+                      "gc-i1-arabic-p01-08-01": {
+                        "id": "gc-i1-arabic-p01-08-01",
+                        "chapterId": "gc-i1-arabic-p01-08",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p01-08-02": {
+                        "id": "gc-i1-arabic-p01-08-02",
+                        "chapterId": "gc-i1-arabic-p01-08",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "المعرّف بالإضافة",
+                        "topic02": ""
+                      }
+                    }
+                  },
+                  "gc-i1-arabic-p01-09": {
+                    "id": "gc-i1-arabic-p01-09",
+                    "subjectId": "gc-i1-arabic-p01",
+                    "name": "ch09",
+                    "ar_title": "الوحدة التاسعة (منزلة المرأة)",
+                    "lessons": {
+                      "gc-i1-arabic-p01-09-01": {
+                        "id": "gc-i1-arabic-p01-09-01",
+                        "chapterId": "gc-i1-arabic-p01-09",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p01-09-02": {
+                        "id": "gc-i1-arabic-p01-09-02",
+                        "chapterId": "gc-i1-arabic-p01-09",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "الفعل الماضي",
+                        "topic02": ""
+                      }
+                    }
+                  },
+                  "gc-i1-arabic-p01-10": {
+                    "id": "gc-i1-arabic-p01-10",
+                    "subjectId": "gc-i1-arabic-p01",
+                    "name": "ch10",
+                    "ar_title": "الوحدة العاشرة (لغتنا رمز وجودنا)",
+                    "lessons": {
+                      "gc-i1-arabic-p01-10-01": {
+                        "id": "gc-i1-arabic-p01-10-01",
+                        "chapterId": "gc-i1-arabic-p01-10",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p01-10-02": {
+                        "id": "gc-i1-arabic-p01-10-02",
+                        "chapterId": "gc-i1-arabic-p01-10",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "رفع الفعل المضارع",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p01-10-03": {
+                        "id": "gc-i1-arabic-p01-10-03",
+                        "chapterId": "gc-i1-arabic-p01-10",
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "التعبير",
+                        "topic01": "",
+                        "topic02": ""
+                      }
+                    }
+                  }
+                }
+              },
+              "gc-i1-arabic-p02": {
+                "id": "gc-i1-arabic-p02",
+                "levelId": "gc-i1",
+                "name": "arabicP02",
+                "ar_title": "اللغة العربية ج 2",
+                "chapters": {
+                  "gc-i1-arabic-p02-01": {
+                    "id": "gc-i1-arabic-p02-01",
+                    "subjectId": "gc-i1-arabic-p02",
+                    "name": "ch01",
+                    "ar_title": "الوحدة الأولى (بيئتنا)",
+                    "lessons": {
+                      "gc-i1-arabic-p02-01-01": {
+                        "id": "gc-i1-arabic-p02-01-01",
+                        "chapterId": "gc-i1-arabic-p02-01",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p02-01-02": {
+                        "id": "gc-i1-arabic-p02-01-02",
+                        "chapterId": "gc-i1-arabic-p02-01",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "نصب الفعل المضارع",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p02-01-03": {
+                        "id": "gc-i1-arabic-p02-01-03",
+                        "chapterId": "gc-i1-arabic-p02-01",
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "التعبير",
+                        "topic01": "",
+                        "topic02": ""
+                      }
+                    }
+                  },
+                  "gc-i1-arabic-p02-02": {
+                    "id": "gc-i1-arabic-p02-02",
+                    "subjectId": "gc-i1-arabic-p02",
+                    "name": "ch02",
+                    "ar_title": "الوحدة الثانية (الإيثار)",
+                    "lessons": {
+                      "gc-i1-arabic-p02-02-01": {
+                        "id": "gc-i1-arabic-p02-02-01",
+                        "chapterId": "gc-i1-arabic-p02-02",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p02-02-02": {
+                        "id": "gc-i1-arabic-p02-02-02",
+                        "chapterId": "gc-i1-arabic-p02-02",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "جزم الفعل المضارع",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p02-02-03": {
+                        "id": "gc-i1-arabic-p02-02-03",
+                        "chapterId": "gc-i1-arabic-p02-02",
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "التعبير",
+                        "topic01": "",
+                        "topic02": ""
+                      }
+                    }
+                  },
+                  "gc-i1-arabic-p02-03": {
+                    "id": "gc-i1-arabic-p02-03",
+                    "subjectId": "gc-i1-arabic-p02",
+                    "name": "ch03",
+                    "ar_title": "الوحدة الثالثة (من تراث العرب)",
+                    "lessons": {
+                      "gc-i1-arabic-p02-03-01": {
+                        "id": "gc-i1-arabic-p02-03-01",
+                        "chapterId": "gc-i1-arabic-p02-03",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p02-03-02": {
+                        "id": "gc-i1-arabic-p02-03-02",
+                        "chapterId": "gc-i1-arabic-p02-03",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "الأفعال الخمسة",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p02-03-03": {
+                        "id": "gc-i1-arabic-p02-03-03",
+                        "chapterId": "gc-i1-arabic-p02-03",
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "الخط والإملاء",
+                        "topic01": "ألف التفريق",
+                        "topic02": ""
+                      }
+                    }
+                  },
+                  "gc-i1-arabic-p02-04": {
+                    "id": "gc-i1-arabic-p02-04",
+                    "subjectId": "gc-i1-arabic-p02",
+                    "name": "ch04",
+                    "ar_title": "الوحدة الرابعة (الرحمة بالرعية)",
+                    "lessons": {
+                      "gc-i1-arabic-p02-04-01": {
+                        "id": "gc-i1-arabic-p02-04-01",
+                        "chapterId": "gc-i1-arabic-p02-04",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p02-04-02": {
+                        "id": "gc-i1-arabic-p02-04-02",
+                        "chapterId": "gc-i1-arabic-p02-04",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "فعل الأمر",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p02-04-03": {
+                        "id": "gc-i1-arabic-p02-04-03",
+                        "chapterId": "gc-i1-arabic-p02-04",
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "الخط والإملاء",
+                        "topic01": "",
+                        "topic02": ""
+                      }
+                    }
+                  },
+                  "gc-i1-arabic-p02-05": {
+                    "id": "gc-i1-arabic-p02-05",
+                    "subjectId": "gc-i1-arabic-p02",
+                    "name": "ch05",
+                    "ar_title": "الوحدة الخامسة (الأم)",
+                    "lessons": {
+                      "gc-i1-arabic-p02-05-01": {
+                        "id": "gc-i1-arabic-p02-05-01",
+                        "chapterId": "gc-i1-arabic-p02-05",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p02-05-02": {
+                        "id": "gc-i1-arabic-p02-05-02",
+                        "chapterId": "gc-i1-arabic-p02-05",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "الفاعل",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p02-05-03": {
+                        "id": "gc-i1-arabic-p02-05-03",
+                        "chapterId": "gc-i1-arabic-p02-05",
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "الاملاء والخط",
+                        "topic01": "التاء المبسوطة والتاء المربوطة",
+                        "topic02": ""
+                      }
+                    }
+                  },
+                  "gc-i1-arabic-p02-06": {
+                    "id": "gc-i1-arabic-p02-06",
+                    "subjectId": "gc-i1-arabic-p02",
+                    "name": "ch06",
+                    "ar_title": "الوحدة السادسة (وقتك حياتك)",
+                    "lessons": {
+                      "gc-i1-arabic-p02-06-01": {
+                        "id": "gc-i1-arabic-p02-06-01",
+                        "chapterId": "gc-i1-arabic-p02-06",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p02-06-02": {
+                        "id": "gc-i1-arabic-p02-06-02",
+                        "chapterId": "gc-i1-arabic-p02-06",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "المفعول به",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p02-06-03": {
+                        "id": "gc-i1-arabic-p02-06-03",
+                        "chapterId": "gc-i1-arabic-p02-06",
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "التعبير",
+                        "topic01": "",
+                        "topic02": ""
+                      }
+                    }
+                  },
+                  "gc-i1-arabic-p02-07": {
+                    "id": "gc-i1-arabic-p02-07",
+                    "subjectId": "gc-i1-arabic-p02",
+                    "name": "ch07",
+                    "ar_title": "الوحدة السابعة (بغداد)",
+                    "lessons": {
+                      "gc-i1-arabic-p02-07-01": {
+                        "id": "gc-i1-arabic-p02-07-01",
+                        "chapterId": "gc-i1-arabic-p02-07",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p02-07-02": {
+                        "id": "gc-i1-arabic-p02-07-02",
+                        "chapterId": "gc-i1-arabic-p02-07",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "المبتدأ والخبر",
+                        "topic02": ""
+                      }
+                    }
+                  },
+                  "gc-i1-arabic-p02-08": {
+                    "id": "gc-i1-arabic-p02-08",
+                    "subjectId": "gc-i1-arabic-p02",
+                    "name": "ch08",
+                    "ar_title": "الوحدة الثامنة (العفو عند المقدرة)",
+                    "lessons": {
+                      "gc-i1-arabic-p02-08-01": {
+                        "id": "gc-i1-arabic-p02-08-01",
+                        "chapterId": "gc-i1-arabic-p02-08",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p02-08-02": {
+                        "id": "gc-i1-arabic-p02-08-02",
+                        "chapterId": "gc-i1-arabic-p02-08",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "كان وأخواتها",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p02-08-03": {
+                        "id": "gc-i1-arabic-p02-08-03",
+                        "chapterId": "gc-i1-arabic-p02-08",
+                        "name": "less03",
+                        "lessonArTitle1": "الدرس الثالث",
+                        "lessonArTitle2": "التعبير",
+                        "topic01": "",
+                        "topic02": ""
+                      }
+                    }
+                  },
+                  "gc-i1-arabic-p02-09": {
+                    "id": "gc-i1-arabic-p02-09",
+                    "subjectId": "gc-i1-arabic-p02",
+                    "name": "ch09",
+                    "ar_title": "الوحدة التاسعة (مبدعونا)",
+                    "lessons": {
+                      "gc-i1-arabic-p02-09-01": {
+                        "id": "gc-i1-arabic-p02-09-01",
+                        "chapterId": "gc-i1-arabic-p02-09",
+                        "name": "less01",
+                        "lessonArTitle1": "الدرس الاول",
+                        "lessonArTitle2": "المطالعة والنصوص",
+                        "topic01": "",
+                        "topic02": ""
+                      },
+                      "gc-i1-arabic-p02-09-02": {
+                        "id": "gc-i1-arabic-p02-09-02",
+                        "chapterId": "gc-i1-arabic-p02-09",
+                        "name": "less02",
+                        "lessonArTitle1": "الدرس الثاني",
+                        "lessonArTitle2": "القواعد",
+                        "topic01": "إنَّ وأخواتها",
+                        "topic02": ""
                       }
                     }
                   }
@@ -347,7 +1055,10 @@
                         "id": "gc-i1-english--",
                         "chapterId": "gc-i1-english-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -369,7 +1080,10 @@
                         "id": "gc-i1-math--",
                         "chapterId": "gc-i1-math-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -391,7 +1105,10 @@
                         "id": "gc-i1-social--",
                         "chapterId": "gc-i1-social-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -413,7 +1130,10 @@
                         "id": "gc-i1-biology--",
                         "chapterId": "gc-i1-biology-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -435,7 +1155,10 @@
                         "id": "gc-i1-chemistry--",
                         "chapterId": "gc-i1-chemistry-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -457,7 +1180,10 @@
                         "id": "gc-i1-physics--",
                         "chapterId": "gc-i1-physics-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -479,7 +1205,10 @@
                         "id": "gc-i1-computer--",
                         "chapterId": "gc-i1-computer-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -501,7 +1230,10 @@
                         "id": "gc-i1-french--",
                         "chapterId": "gc-i1-french-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -523,7 +1255,10 @@
                         "id": "gc-i1-ethics--",
                         "chapterId": "gc-i1-ethics-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -553,7 +1288,10 @@
                         "id": "gc-i2-islamic--",
                         "chapterId": "gc-i2-islamic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -575,7 +1313,10 @@
                         "id": "gc-i2-arabic--",
                         "chapterId": "gc-i2-arabic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -597,7 +1338,10 @@
                         "id": "gc-i2-english--",
                         "chapterId": "gc-i2-english-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -619,7 +1363,10 @@
                         "id": "gc-i2-math--",
                         "chapterId": "gc-i2-math-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -641,7 +1388,10 @@
                         "id": "gc-i2-social--",
                         "chapterId": "gc-i2-social-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -663,7 +1413,10 @@
                         "id": "gc-i2-biology--",
                         "chapterId": "gc-i2-biology-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -685,7 +1438,10 @@
                         "id": "gc-i2-chemistry--",
                         "chapterId": "gc-i2-chemistry-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -707,7 +1463,10 @@
                         "id": "gc-i2-physics--",
                         "chapterId": "gc-i2-physics-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -729,7 +1488,10 @@
                         "id": "gc-i2-computer--",
                         "chapterId": "gc-i2-computer-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -751,7 +1513,10 @@
                         "id": "gc-i2-french--",
                         "chapterId": "gc-i2-french-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -781,7 +1546,10 @@
                         "id": "gc-i3-islamic--",
                         "chapterId": "gc-i3-islamic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -803,7 +1571,10 @@
                         "id": "gc-i3-arabic--",
                         "chapterId": "gc-i3-arabic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -825,7 +1596,10 @@
                         "id": "gc-i3-english--",
                         "chapterId": "gc-i3-english-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -847,7 +1621,10 @@
                         "id": "gc-i3-math--",
                         "chapterId": "gc-i3-math-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -869,7 +1646,10 @@
                         "id": "gc-i3-social--",
                         "chapterId": "gc-i3-social-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -891,7 +1671,10 @@
                         "id": "gc-i3-biology--",
                         "chapterId": "gc-i3-biology-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -913,7 +1696,10 @@
                         "id": "gc-i3-chemistry--",
                         "chapterId": "gc-i3-chemistry-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -935,7 +1721,10 @@
                         "id": "gc-i3-physics--",
                         "chapterId": "gc-i3-physics-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -957,7 +1746,10 @@
                         "id": "gc-i3-computer--",
                         "chapterId": "gc-i3-computer-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -979,7 +1771,10 @@
                         "id": "gc-i3-french--",
                         "chapterId": "gc-i3-french-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1009,7 +1804,10 @@
                         "id": "gc-ss4-islamic--",
                         "chapterId": "gc-ss4-islamic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1031,7 +1829,10 @@
                         "id": "gc-ss4-arabic--",
                         "chapterId": "gc-ss4-arabic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1053,7 +1854,10 @@
                         "id": "gc-ss4-english--",
                         "chapterId": "gc-ss4-english-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1075,7 +1879,10 @@
                         "id": "gc-ss4-math--",
                         "chapterId": "gc-ss4-math-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1097,7 +1904,10 @@
                         "id": "gc-ss4-biology--",
                         "chapterId": "gc-ss4-biology-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1119,7 +1929,10 @@
                         "id": "gc-ss4-chemistry--",
                         "chapterId": "gc-ss4-chemistry-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1141,7 +1954,10 @@
                         "id": "gc-ss4-physics--",
                         "chapterId": "gc-ss4-physics-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1163,7 +1979,10 @@
                         "id": "gc-ss4-computer--",
                         "chapterId": "gc-ss4-computer-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1185,7 +2004,10 @@
                         "id": "gc-ss4-french--",
                         "chapterId": "gc-ss4-french-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1207,7 +2029,10 @@
                         "id": "gc-ss4-kurdish--",
                         "chapterId": "gc-ss4-kurdish-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1237,7 +2062,10 @@
                         "id": "gc-ls4-islamic--",
                         "chapterId": "gc-ls4-islamic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1259,7 +2087,10 @@
                         "id": "gc-ls4-arabic--",
                         "chapterId": "gc-ls4-arabic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1281,7 +2112,10 @@
                         "id": "gc-ls4-english--",
                         "chapterId": "gc-ls4-english-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1303,7 +2137,10 @@
                         "id": "gc-ls4-math--",
                         "chapterId": "gc-ls4-math-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1325,7 +2162,10 @@
                         "id": "gc-ls4-history--",
                         "chapterId": "gc-ls4-history-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1347,7 +2187,10 @@
                         "id": "gc-ls4-geography--",
                         "chapterId": "gc-ls4-geography-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1369,7 +2212,10 @@
                         "id": "gc-ls4-social--",
                         "chapterId": "gc-ls4-social-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1391,7 +2237,10 @@
                         "id": "gc-ls4-computer--",
                         "chapterId": "gc-ls4-computer-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1413,7 +2262,10 @@
                         "id": "gc-ls4-french--",
                         "chapterId": "gc-ls4-french-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1435,7 +2287,10 @@
                         "id": "gc-ls4-kurdish--",
                         "chapterId": "gc-ls4-kurdish-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1465,7 +2320,10 @@
                         "id": "gc-ss5-islamic--",
                         "chapterId": "gc-ss5-islamic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1487,7 +2345,10 @@
                         "id": "gc-ss5-arabic--",
                         "chapterId": "gc-ss5-arabic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1509,7 +2370,10 @@
                         "id": "gc-ss5-english--",
                         "chapterId": "gc-ss5-english-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1531,7 +2395,10 @@
                         "id": "gc-ss5-math--",
                         "chapterId": "gc-ss5-math-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1553,7 +2420,10 @@
                         "id": "gc-ss5-biology--",
                         "chapterId": "gc-ss5-biology-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1575,7 +2445,10 @@
                         "id": "gc-ss5-chemistry--",
                         "chapterId": "gc-ss5-chemistry-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1597,7 +2470,10 @@
                         "id": "gc-ss5-physics--",
                         "chapterId": "gc-ss5-physics-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1619,7 +2495,10 @@
                         "id": "gc-ss5-geology--",
                         "chapterId": "gc-ss5-geology-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1641,7 +2520,10 @@
                         "id": "gc-ss5-computer--",
                         "chapterId": "gc-ss5-computer-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1663,7 +2545,10 @@
                         "id": "gc-ss5-french--",
                         "chapterId": "gc-ss5-french-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1685,7 +2570,10 @@
                         "id": "gc-ss5-kurdish--",
                         "chapterId": "gc-ss5-kurdish-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1715,7 +2603,10 @@
                         "id": "gc-ls5-islamic--",
                         "chapterId": "gc-ls5-islamic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1737,7 +2628,10 @@
                         "id": "gc-ls5-arabic--",
                         "chapterId": "gc-ls5-arabic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1759,7 +2653,10 @@
                         "id": "gc-ls5-english--",
                         "chapterId": "gc-ls5-english-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1781,7 +2678,10 @@
                         "id": "gc-ls5-math--",
                         "chapterId": "gc-ls5-math-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1803,7 +2703,10 @@
                         "id": "gc-ls5-history--",
                         "chapterId": "gc-ls5-history-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1825,7 +2728,10 @@
                         "id": "gc-ls5-geography--",
                         "chapterId": "gc-ls5-geography-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1847,7 +2753,10 @@
                         "id": "gc-ls5-philosophy--",
                         "chapterId": "gc-ls5-philosophy-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1869,7 +2778,10 @@
                         "id": "gc-ls5-economy--",
                         "chapterId": "gc-ls5-economy-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1891,7 +2803,10 @@
                         "id": "gc-ls5-computer--",
                         "chapterId": "gc-ls5-computer-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1913,7 +2828,10 @@
                         "id": "gc-ls5-french--",
                         "chapterId": "gc-ls5-french-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1935,7 +2853,10 @@
                         "id": "gc-ls5-kurdish--",
                         "chapterId": "gc-ls5-kurdish-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1965,7 +2886,10 @@
                         "id": "gc-ss6-islamic--",
                         "chapterId": "gc-ss6-islamic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -1987,7 +2911,10 @@
                         "id": "gc-ss6-arabic--",
                         "chapterId": "gc-ss6-arabic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2009,7 +2936,10 @@
                         "id": "gc-ss6-english--",
                         "chapterId": "gc-ss6-english-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2031,7 +2961,10 @@
                         "id": "gc-ss6-math--",
                         "chapterId": "gc-ss6-math-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2053,7 +2986,10 @@
                         "id": "gc-ss6-biology--",
                         "chapterId": "gc-ss6-biology-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2075,7 +3011,10 @@
                         "id": "gc-ss6-chemistry--",
                         "chapterId": "gc-ss6-chemistry-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2097,7 +3036,10 @@
                         "id": "gc-ss6-physics--",
                         "chapterId": "gc-ss6-physics-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2119,7 +3061,10 @@
                         "id": "gc-ss6-french--",
                         "chapterId": "gc-ss6-french-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2149,7 +3094,10 @@
                         "id": "gc-ls6-islamic--",
                         "chapterId": "gc-ls6-islamic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2171,7 +3119,10 @@
                         "id": "gc-ls6-arabic--",
                         "chapterId": "gc-ls6-arabic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2193,7 +3144,10 @@
                         "id": "gc-ls6-english--",
                         "chapterId": "gc-ls6-english-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2215,7 +3169,10 @@
                         "id": "gc-ls6-math--",
                         "chapterId": "gc-ls6-math-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2237,7 +3194,10 @@
                         "id": "gc-ls6-history--",
                         "chapterId": "gc-ls6-history-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2259,7 +3219,10 @@
                         "id": "gc-ls6-geography--",
                         "chapterId": "gc-ls6-geography-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2281,7 +3244,10 @@
                         "id": "gc-ls6-economy--",
                         "chapterId": "gc-ls6-economy-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2303,7 +3269,10 @@
                         "id": "gc-ls6-french--",
                         "chapterId": "gc-ls6-french-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2340,7 +3309,10 @@
                         "id": "spc-i1-islamic--",
                         "chapterId": "spc-i1-islamic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2362,7 +3334,10 @@
                         "id": "spc-i1-arabic--",
                         "chapterId": "spc-i1-arabic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2384,7 +3359,10 @@
                         "id": "spc-i1-english--",
                         "chapterId": "spc-i1-english-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2394,7 +3372,7 @@
                 "id": "spc-i1-math",
                 "levelId": "spc-i1",
                 "name": "math",
-                "ar_title": "Mathematics",
+                "ar_title": "math",
                 "chapters": {
                   "spc-i1-math-": {
                     "id": "spc-i1-math-",
@@ -2406,7 +3384,10 @@
                         "id": "spc-i1-math--",
                         "chapterId": "spc-i1-math-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2428,7 +3409,10 @@
                         "id": "spc-i1-social--",
                         "chapterId": "spc-i1-social-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2438,7 +3422,7 @@
                 "id": "spc-i1-biology",
                 "levelId": "spc-i1",
                 "name": "biology",
-                "ar_title": "Biology",
+                "ar_title": "biology",
                 "chapters": {
                   "spc-i1-biology-": {
                     "id": "spc-i1-biology-",
@@ -2450,7 +3434,10 @@
                         "id": "spc-i1-biology--",
                         "chapterId": "spc-i1-biology-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2460,7 +3447,7 @@
                 "id": "spc-i1-chemistry",
                 "levelId": "spc-i1",
                 "name": "chemistry",
-                "ar_title": "Chemistry",
+                "ar_title": "chemistry",
                 "chapters": {
                   "spc-i1-chemistry-": {
                     "id": "spc-i1-chemistry-",
@@ -2472,7 +3459,10 @@
                         "id": "spc-i1-chemistry--",
                         "chapterId": "spc-i1-chemistry-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2482,7 +3472,7 @@
                 "id": "spc-i1-physics",
                 "levelId": "spc-i1",
                 "name": "physics",
-                "ar_title": "Physics",
+                "ar_title": "physics",
                 "chapters": {
                   "spc-i1-physics-": {
                     "id": "spc-i1-physics-",
@@ -2494,7 +3484,10 @@
                         "id": "spc-i1-physics--",
                         "chapterId": "spc-i1-physics-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2516,7 +3509,10 @@
                         "id": "spc-i1-computer--",
                         "chapterId": "spc-i1-computer-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2538,7 +3534,10 @@
                         "id": "spc-i1-french--",
                         "chapterId": "spc-i1-french-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2560,7 +3559,10 @@
                         "id": "spc-i1-ethics--",
                         "chapterId": "spc-i1-ethics-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2590,7 +3592,10 @@
                         "id": "spc-i2-islamic--",
                         "chapterId": "spc-i2-islamic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2612,7 +3617,10 @@
                         "id": "spc-i2-arabic--",
                         "chapterId": "spc-i2-arabic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2634,7 +3642,10 @@
                         "id": "spc-i2-english--",
                         "chapterId": "spc-i2-english-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2644,7 +3655,7 @@
                 "id": "spc-i2-math",
                 "levelId": "spc-i2",
                 "name": "math",
-                "ar_title": "Mathematics",
+                "ar_title": "math",
                 "chapters": {
                   "spc-i2-math-": {
                     "id": "spc-i2-math-",
@@ -2656,7 +3667,10 @@
                         "id": "spc-i2-math--",
                         "chapterId": "spc-i2-math-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2678,7 +3692,10 @@
                         "id": "spc-i2-social--",
                         "chapterId": "spc-i2-social-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2688,7 +3705,7 @@
                 "id": "spc-i2-biology",
                 "levelId": "spc-i2",
                 "name": "biology",
-                "ar_title": "Biology",
+                "ar_title": "biology",
                 "chapters": {
                   "spc-i2-biology-": {
                     "id": "spc-i2-biology-",
@@ -2700,7 +3717,10 @@
                         "id": "spc-i2-biology--",
                         "chapterId": "spc-i2-biology-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2710,7 +3730,7 @@
                 "id": "spc-i2-chemistry",
                 "levelId": "spc-i2",
                 "name": "chemistry",
-                "ar_title": "Chemistry",
+                "ar_title": "chemistry",
                 "chapters": {
                   "spc-i2-chemistry-": {
                     "id": "spc-i2-chemistry-",
@@ -2722,7 +3742,10 @@
                         "id": "spc-i2-chemistry--",
                         "chapterId": "spc-i2-chemistry-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2732,7 +3755,7 @@
                 "id": "spc-i2-physics",
                 "levelId": "spc-i2",
                 "name": "physics",
-                "ar_title": "Physics",
+                "ar_title": "physics",
                 "chapters": {
                   "spc-i2-physics-": {
                     "id": "spc-i2-physics-",
@@ -2744,7 +3767,10 @@
                         "id": "spc-i2-physics--",
                         "chapterId": "spc-i2-physics-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2766,7 +3792,10 @@
                         "id": "spc-i2-computer--",
                         "chapterId": "spc-i2-computer-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2788,7 +3817,10 @@
                         "id": "spc-i2-french--",
                         "chapterId": "spc-i2-french-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2818,7 +3850,10 @@
                         "id": "spc-i3-islamic--",
                         "chapterId": "spc-i3-islamic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2840,7 +3875,10 @@
                         "id": "spc-i3-arabic--",
                         "chapterId": "spc-i3-arabic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2862,7 +3900,10 @@
                         "id": "spc-i3-english--",
                         "chapterId": "spc-i3-english-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2872,7 +3913,7 @@
                 "id": "spc-i3-math",
                 "levelId": "spc-i3",
                 "name": "math",
-                "ar_title": "Mathematics",
+                "ar_title": "math",
                 "chapters": {
                   "spc-i3-math-": {
                     "id": "spc-i3-math-",
@@ -2884,7 +3925,10 @@
                         "id": "spc-i3-math--",
                         "chapterId": "spc-i3-math-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2906,7 +3950,10 @@
                         "id": "spc-i3-social--",
                         "chapterId": "spc-i3-social-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2916,7 +3963,7 @@
                 "id": "spc-i3-biology",
                 "levelId": "spc-i3",
                 "name": "biology",
-                "ar_title": "Biology",
+                "ar_title": "biology",
                 "chapters": {
                   "spc-i3-biology-": {
                     "id": "spc-i3-biology-",
@@ -2928,7 +3975,10 @@
                         "id": "spc-i3-biology--",
                         "chapterId": "spc-i3-biology-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": " ",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2938,7 +3988,7 @@
                 "id": "spc-i3-chemistry",
                 "levelId": "spc-i3",
                 "name": "chemistry",
-                "ar_title": "Chemistry",
+                "ar_title": "chemistry",
                 "chapters": {
                   "spc-i3-chemistry-": {
                     "id": "spc-i3-chemistry-",
@@ -2950,7 +4000,10 @@
                         "id": "spc-i3-chemistry--",
                         "chapterId": "spc-i3-chemistry-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2960,7 +4013,7 @@
                 "id": "spc-i3-physics",
                 "levelId": "spc-i3",
                 "name": "physics",
-                "ar_title": "Physics",
+                "ar_title": "physics",
                 "chapters": {
                   "spc-i3-physics-": {
                     "id": "spc-i3-physics-",
@@ -2972,7 +4025,10 @@
                         "id": "spc-i3-physics--",
                         "chapterId": "spc-i3-physics-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -2994,7 +4050,10 @@
                         "id": "spc-i3-computer--",
                         "chapterId": "spc-i3-computer-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3016,7 +4075,10 @@
                         "id": "spc-i3-french--",
                         "chapterId": "spc-i3-french-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3046,7 +4108,10 @@
                         "id": "spc-ss4-islamic--",
                         "chapterId": "spc-ss4-islamic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3068,7 +4133,10 @@
                         "id": "spc-ss4-arabic--",
                         "chapterId": "spc-ss4-arabic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3090,7 +4158,10 @@
                         "id": "spc-ss4-english--",
                         "chapterId": "spc-ss4-english-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3100,7 +4171,7 @@
                 "id": "spc-ss4-math",
                 "levelId": "spc-ss4",
                 "name": "math",
-                "ar_title": "Mathematics",
+                "ar_title": "math",
                 "chapters": {
                   "spc-ss4-math-": {
                     "id": "spc-ss4-math-",
@@ -3112,7 +4183,10 @@
                         "id": "spc-ss4-math--",
                         "chapterId": "spc-ss4-math-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3122,7 +4196,7 @@
                 "id": "spc-ss4-biology",
                 "levelId": "spc-ss4",
                 "name": "biology",
-                "ar_title": "Biology",
+                "ar_title": "biology",
                 "chapters": {
                   "spc-ss4-biology-": {
                     "id": "spc-ss4-biology-",
@@ -3134,7 +4208,10 @@
                         "id": "spc-ss4-biology--",
                         "chapterId": "spc-ss4-biology-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3144,7 +4221,7 @@
                 "id": "spc-ss4-chemistry",
                 "levelId": "spc-ss4",
                 "name": "chemistry",
-                "ar_title": "Chemistry",
+                "ar_title": "chemistry",
                 "chapters": {
                   "spc-ss4-chemistry-": {
                     "id": "spc-ss4-chemistry-",
@@ -3156,7 +4233,10 @@
                         "id": "spc-ss4-chemistry--",
                         "chapterId": "spc-ss4-chemistry-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3166,7 +4246,7 @@
                 "id": "spc-ss4-physics",
                 "levelId": "spc-ss4",
                 "name": "physics",
-                "ar_title": "Physics",
+                "ar_title": "physics",
                 "chapters": {
                   "spc-ss4-physics-": {
                     "id": "spc-ss4-physics-",
@@ -3178,7 +4258,10 @@
                         "id": "spc-ss4-physics--",
                         "chapterId": "spc-ss4-physics-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3200,7 +4283,10 @@
                         "id": "spc-ss4-computer--",
                         "chapterId": "spc-ss4-computer-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3222,7 +4308,10 @@
                         "id": "spc-ss4-french--",
                         "chapterId": "spc-ss4-french-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3244,7 +4333,10 @@
                         "id": "spc-ss4-kurdish--",
                         "chapterId": "spc-ss4-kurdish-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3274,7 +4366,10 @@
                         "id": "spc-ss5-islamic--",
                         "chapterId": "spc-ss5-islamic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3296,7 +4391,10 @@
                         "id": "spc-ss5-arabic--",
                         "chapterId": "spc-ss5-arabic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3318,7 +4416,10 @@
                         "id": "spc-ss5-english--",
                         "chapterId": "spc-ss5-english-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3328,7 +4429,7 @@
                 "id": "spc-ss5-math",
                 "levelId": "spc-ss5",
                 "name": "math",
-                "ar_title": "Mathematics",
+                "ar_title": "math",
                 "chapters": {
                   "spc-ss5-math-": {
                     "id": "spc-ss5-math-",
@@ -3340,7 +4441,10 @@
                         "id": "spc-ss5-math--",
                         "chapterId": "spc-ss5-math-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3350,7 +4454,7 @@
                 "id": "spc-ss5-biology",
                 "levelId": "spc-ss5",
                 "name": "biology",
-                "ar_title": "Biology",
+                "ar_title": "biology",
                 "chapters": {
                   "spc-ss5-biology-": {
                     "id": "spc-ss5-biology-",
@@ -3362,7 +4466,10 @@
                         "id": "spc-ss5-biology--",
                         "chapterId": "spc-ss5-biology-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3372,7 +4479,7 @@
                 "id": "spc-ss5-chemistry",
                 "levelId": "spc-ss5",
                 "name": "chemistry",
-                "ar_title": "Chemistry",
+                "ar_title": "chemistry",
                 "chapters": {
                   "spc-ss5-chemistry-": {
                     "id": "spc-ss5-chemistry-",
@@ -3384,7 +4491,10 @@
                         "id": "spc-ss5-chemistry--",
                         "chapterId": "spc-ss5-chemistry-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3394,7 +4504,7 @@
                 "id": "spc-ss5-physics",
                 "levelId": "spc-ss5",
                 "name": "physics",
-                "ar_title": "Physics",
+                "ar_title": "physics",
                 "chapters": {
                   "spc-ss5-physics-": {
                     "id": "spc-ss5-physics-",
@@ -3406,7 +4516,10 @@
                         "id": "spc-ss5-physics--",
                         "chapterId": "spc-ss5-physics-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3428,7 +4541,10 @@
                         "id": "spc-ss5-geology--",
                         "chapterId": "spc-ss5-geology-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3450,7 +4566,10 @@
                         "id": "spc-ss5-computer--",
                         "chapterId": "spc-ss5-computer-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3472,7 +4591,10 @@
                         "id": "spc-ss5-french--",
                         "chapterId": "spc-ss5-french-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3494,7 +4616,10 @@
                         "id": "spc-ss5-kurdish--",
                         "chapterId": "spc-ss5-kurdish-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3524,7 +4649,10 @@
                         "id": "spc-ss6-islamic--",
                         "chapterId": "spc-ss6-islamic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3546,7 +4674,10 @@
                         "id": "spc-ss6-arabic--",
                         "chapterId": "spc-ss6-arabic-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3568,7 +4699,10 @@
                         "id": "spc-ss6-english--",
                         "chapterId": "spc-ss6-english-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3578,7 +4712,7 @@
                 "id": "spc-ss6-math",
                 "levelId": "spc-ss6",
                 "name": "math",
-                "ar_title": "Mathematics",
+                "ar_title": "math",
                 "chapters": {
                   "spc-ss6-math-": {
                     "id": "spc-ss6-math-",
@@ -3590,7 +4724,10 @@
                         "id": "spc-ss6-math--",
                         "chapterId": "spc-ss6-math-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3600,7 +4737,7 @@
                 "id": "spc-ss6-biology",
                 "levelId": "spc-ss6",
                 "name": "biology",
-                "ar_title": "Biology",
+                "ar_title": "biology",
                 "chapters": {
                   "spc-ss6-biology-": {
                     "id": "spc-ss6-biology-",
@@ -3612,7 +4749,10 @@
                         "id": "spc-ss6-biology--",
                         "chapterId": "spc-ss6-biology-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3622,7 +4762,7 @@
                 "id": "spc-ss6-chemistry",
                 "levelId": "spc-ss6",
                 "name": "chemistry",
-                "ar_title": "Chemistry",
+                "ar_title": "chemistry",
                 "chapters": {
                   "spc-ss6-chemistry-": {
                     "id": "spc-ss6-chemistry-",
@@ -3634,7 +4774,10 @@
                         "id": "spc-ss6-chemistry--",
                         "chapterId": "spc-ss6-chemistry-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3644,7 +4787,7 @@
                 "id": "spc-ss6-physics",
                 "levelId": "spc-ss6",
                 "name": "physics",
-                "ar_title": "Physics",
+                "ar_title": "physics",
                 "chapters": {
                   "spc-ss6-physics-": {
                     "id": "spc-ss6-physics-",
@@ -3656,7 +4799,10 @@
                         "id": "spc-ss6-physics--",
                         "chapterId": "spc-ss6-physics-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
@@ -3678,7 +4824,10 @@
                         "id": "spc-ss6-french--",
                         "chapterId": "spc-ss6-french-",
                         "name": "",
-                        "ar_title": ""
+                        "lessonArTitle1": "",
+                        "lessonArTitle2": "",
+                        "topic01": "",
+                        "topic02": ""
                       }
                     }
                   }
